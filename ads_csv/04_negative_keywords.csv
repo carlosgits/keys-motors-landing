@@ -1,0 +1,329 @@
+﻿Campaign,Ad group,Keyword,Match type,Status
+01 - BHPH English Near Me,,new,Phrase,Negative
+02 - Local Florida Geo,,new,Phrase,Negative
+03 - BHPH Spanish,,new,Phrase,Negative
+04 - Trade-In,,new,Phrase,Negative
+05 - Branded Defensive,,new,Phrase,Negative
+01 - BHPH English Near Me,,lease,Phrase,Negative
+02 - Local Florida Geo,,lease,Phrase,Negative
+03 - BHPH Spanish,,lease,Phrase,Negative
+04 - Trade-In,,lease,Phrase,Negative
+05 - Branded Defensive,,lease,Phrase,Negative
+01 - BHPH English Near Me,,leasing,Phrase,Negative
+02 - Local Florida Geo,,leasing,Phrase,Negative
+03 - BHPH Spanish,,leasing,Phrase,Negative
+04 - Trade-In,,leasing,Phrase,Negative
+05 - Branded Defensive,,leasing,Phrase,Negative
+01 - BHPH English Near Me,,rental,Phrase,Negative
+02 - Local Florida Geo,,rental,Phrase,Negative
+03 - BHPH Spanish,,rental,Phrase,Negative
+04 - Trade-In,,rental,Phrase,Negative
+05 - Branded Defensive,,rental,Phrase,Negative
+01 - BHPH English Near Me,,rent,Phrase,Negative
+02 - Local Florida Geo,,rent,Phrase,Negative
+03 - BHPH Spanish,,rent,Phrase,Negative
+04 - Trade-In,,rent,Phrase,Negative
+05 - Branded Defensive,,rent,Phrase,Negative
+01 - BHPH English Near Me,,audi,Phrase,Negative
+02 - Local Florida Geo,,audi,Phrase,Negative
+03 - BHPH Spanish,,audi,Phrase,Negative
+04 - Trade-In,,audi,Phrase,Negative
+05 - Branded Defensive,,audi,Phrase,Negative
+01 - BHPH English Near Me,,bmw,Phrase,Negative
+02 - Local Florida Geo,,bmw,Phrase,Negative
+03 - BHPH Spanish,,bmw,Phrase,Negative
+04 - Trade-In,,bmw,Phrase,Negative
+05 - Branded Defensive,,bmw,Phrase,Negative
+01 - BHPH English Near Me,,mercedes,Phrase,Negative
+02 - Local Florida Geo,,mercedes,Phrase,Negative
+03 - BHPH Spanish,,mercedes,Phrase,Negative
+04 - Trade-In,,mercedes,Phrase,Negative
+05 - Branded Defensive,,mercedes,Phrase,Negative
+01 - BHPH English Near Me,,porsche,Phrase,Negative
+02 - Local Florida Geo,,porsche,Phrase,Negative
+03 - BHPH Spanish,,porsche,Phrase,Negative
+04 - Trade-In,,porsche,Phrase,Negative
+05 - Branded Defensive,,porsche,Phrase,Negative
+01 - BHPH English Near Me,,tesla,Phrase,Negative
+02 - Local Florida Geo,,tesla,Phrase,Negative
+03 - BHPH Spanish,,tesla,Phrase,Negative
+04 - Trade-In,,tesla,Phrase,Negative
+05 - Branded Defensive,,tesla,Phrase,Negative
+01 - BHPH English Near Me,,lexus,Phrase,Negative
+02 - Local Florida Geo,,lexus,Phrase,Negative
+03 - BHPH Spanish,,lexus,Phrase,Negative
+04 - Trade-In,,lexus,Phrase,Negative
+05 - Branded Defensive,,lexus,Phrase,Negative
+01 - BHPH English Near Me,,luxury,Phrase,Negative
+02 - Local Florida Geo,,luxury,Phrase,Negative
+03 - BHPH Spanish,,luxury,Phrase,Negative
+04 - Trade-In,,luxury,Phrase,Negative
+05 - Branded Defensive,,luxury,Phrase,Negative
+01 - BHPH English Near Me,,premium,Phrase,Negative
+02 - Local Florida Geo,,premium,Phrase,Negative
+03 - BHPH Spanish,,premium,Phrase,Negative
+04 - Trade-In,,premium,Phrase,Negative
+05 - Branded Defensive,,premium,Phrase,Negative
+01 - BHPH English Near Me,,exotic,Phrase,Negative
+02 - Local Florida Geo,,exotic,Phrase,Negative
+03 - BHPH Spanish,,exotic,Phrase,Negative
+04 - Trade-In,,exotic,Phrase,Negative
+05 - Branded Defensive,,exotic,Phrase,Negative
+01 - BHPH English Near Me,,junk,Phrase,Negative
+02 - Local Florida Geo,,junk,Phrase,Negative
+03 - BHPH Spanish,,junk,Phrase,Negative
+04 - Trade-In,,junk,Phrase,Negative
+05 - Branded Defensive,,junk,Phrase,Negative
+01 - BHPH English Near Me,,salvage,Phrase,Negative
+02 - Local Florida Geo,,salvage,Phrase,Negative
+03 - BHPH Spanish,,salvage,Phrase,Negative
+04 - Trade-In,,salvage,Phrase,Negative
+05 - Branded Defensive,,salvage,Phrase,Negative
+01 - BHPH English Near Me,,parts,Phrase,Negative
+02 - Local Florida Geo,,parts,Phrase,Negative
+03 - BHPH Spanish,,parts,Phrase,Negative
+04 - Trade-In,,parts,Phrase,Negative
+05 - Branded Defensive,,parts,Phrase,Negative
+01 - BHPH English Near Me,,repair,Phrase,Negative
+02 - Local Florida Geo,,repair,Phrase,Negative
+03 - BHPH Spanish,,repair,Phrase,Negative
+04 - Trade-In,,repair,Phrase,Negative
+05 - Branded Defensive,,repair,Phrase,Negative
+01 - BHPH English Near Me,,mechanic,Phrase,Negative
+02 - Local Florida Geo,,mechanic,Phrase,Negative
+03 - BHPH Spanish,,mechanic,Phrase,Negative
+04 - Trade-In,,mechanic,Phrase,Negative
+05 - Branded Defensive,,mechanic,Phrase,Negative
+01 - BHPH English Near Me,,wholesale,Phrase,Negative
+02 - Local Florida Geo,,wholesale,Phrase,Negative
+03 - BHPH Spanish,,wholesale,Phrase,Negative
+04 - Trade-In,,wholesale,Phrase,Negative
+05 - Branded Defensive,,wholesale,Phrase,Negative
+01 - BHPH English Near Me,,auction,Phrase,Negative
+02 - Local Florida Geo,,auction,Phrase,Negative
+03 - BHPH Spanish,,auction,Phrase,Negative
+04 - Trade-In,,auction,Phrase,Negative
+05 - Branded Defensive,,auction,Phrase,Negative
+01 - BHPH English Near Me,,free,Phrase,Negative
+02 - Local Florida Geo,,free,Phrase,Negative
+03 - BHPH Spanish,,free,Phrase,Negative
+04 - Trade-In,,free,Phrase,Negative
+05 - Branded Defensive,,free,Phrase,Negative
+01 - BHPH English Near Me,,diy,Phrase,Negative
+02 - Local Florida Geo,,diy,Phrase,Negative
+03 - BHPH Spanish,,diy,Phrase,Negative
+04 - Trade-In,,diy,Phrase,Negative
+05 - Branded Defensive,,diy,Phrase,Negative
+01 - BHPH English Near Me,,plans,Phrase,Negative
+02 - Local Florida Geo,,plans,Phrase,Negative
+03 - BHPH Spanish,,plans,Phrase,Negative
+04 - Trade-In,,plans,Phrase,Negative
+05 - Branded Defensive,,plans,Phrase,Negative
+01 - BHPH English Near Me,,manual,Phrase,Negative
+02 - Local Florida Geo,,manual,Phrase,Negative
+03 - BHPH Spanish,,manual,Phrase,Negative
+04 - Trade-In,,manual,Phrase,Negative
+05 - Branded Defensive,,manual,Phrase,Negative
+01 - BHPH English Near Me,,what is,Phrase,Negative
+02 - Local Florida Geo,,what is,Phrase,Negative
+03 - BHPH Spanish,,what is,Phrase,Negative
+04 - Trade-In,,what is,Phrase,Negative
+05 - Branded Defensive,,what is,Phrase,Negative
+01 - BHPH English Near Me,,how to,Phrase,Negative
+02 - Local Florida Geo,,how to,Phrase,Negative
+03 - BHPH Spanish,,how to,Phrase,Negative
+04 - Trade-In,,how to,Phrase,Negative
+05 - Branded Defensive,,how to,Phrase,Negative
+01 - BHPH English Near Me,,definition,Phrase,Negative
+02 - Local Florida Geo,,definition,Phrase,Negative
+03 - BHPH Spanish,,definition,Phrase,Negative
+04 - Trade-In,,definition,Phrase,Negative
+05 - Branded Defensive,,definition,Phrase,Negative
+01 - BHPH English Near Me,,wikipedia,Phrase,Negative
+02 - Local Florida Geo,,wikipedia,Phrase,Negative
+03 - BHPH Spanish,,wikipedia,Phrase,Negative
+04 - Trade-In,,wikipedia,Phrase,Negative
+05 - Branded Defensive,,wikipedia,Phrase,Negative
+01 - BHPH English Near Me,,reviews,Phrase,Negative
+02 - Local Florida Geo,,reviews,Phrase,Negative
+03 - BHPH Spanish,,reviews,Phrase,Negative
+04 - Trade-In,,reviews,Phrase,Negative
+05 - Branded Defensive,,reviews,Phrase,Negative
+01 - BHPH English Near Me,,complaints,Phrase,Negative
+02 - Local Florida Geo,,complaints,Phrase,Negative
+03 - BHPH Spanish,,complaints,Phrase,Negative
+04 - Trade-In,,complaints,Phrase,Negative
+05 - Branded Defensive,,complaints,Phrase,Negative
+01 - BHPH English Near Me,,jobs,Phrase,Negative
+02 - Local Florida Geo,,jobs,Phrase,Negative
+03 - BHPH Spanish,,jobs,Phrase,Negative
+04 - Trade-In,,jobs,Phrase,Negative
+05 - Branded Defensive,,jobs,Phrase,Negative
+01 - BHPH English Near Me,,job,Phrase,Negative
+02 - Local Florida Geo,,job,Phrase,Negative
+03 - BHPH Spanish,,job,Phrase,Negative
+04 - Trade-In,,job,Phrase,Negative
+05 - Branded Defensive,,job,Phrase,Negative
+01 - BHPH English Near Me,,career,Phrase,Negative
+02 - Local Florida Geo,,career,Phrase,Negative
+03 - BHPH Spanish,,career,Phrase,Negative
+04 - Trade-In,,career,Phrase,Negative
+05 - Branded Defensive,,career,Phrase,Negative
+01 - BHPH English Near Me,,hiring,Phrase,Negative
+02 - Local Florida Geo,,hiring,Phrase,Negative
+03 - BHPH Spanish,,hiring,Phrase,Negative
+04 - Trade-In,,hiring,Phrase,Negative
+05 - Branded Defensive,,hiring,Phrase,Negative
+01 - BHPH English Near Me,,employment,Phrase,Negative
+02 - Local Florida Geo,,employment,Phrase,Negative
+03 - BHPH Spanish,,employment,Phrase,Negative
+04 - Trade-In,,employment,Phrase,Negative
+05 - Branded Defensive,,employment,Phrase,Negative
+01 - BHPH English Near Me,,kbb,Phrase,Negative
+02 - Local Florida Geo,,kbb,Phrase,Negative
+03 - BHPH Spanish,,kbb,Phrase,Negative
+05 - Branded Defensive,,kbb,Phrase,Negative
+01 - BHPH English Near Me,,kelley blue book,Phrase,Negative
+02 - Local Florida Geo,,kelley blue book,Phrase,Negative
+03 - BHPH Spanish,,kelley blue book,Phrase,Negative
+05 - Branded Defensive,,kelley blue book,Phrase,Negative
+01 - BHPH English Near Me,,edmunds,Phrase,Negative
+02 - Local Florida Geo,,edmunds,Phrase,Negative
+03 - BHPH Spanish,,edmunds,Phrase,Negative
+04 - Trade-In,,edmunds,Phrase,Negative
+05 - Branded Defensive,,edmunds,Phrase,Negative
+01 - BHPH English Near Me,,carfax,Phrase,Negative
+02 - Local Florida Geo,,carfax,Phrase,Negative
+03 - BHPH Spanish,,carfax,Phrase,Negative
+04 - Trade-In,,carfax,Phrase,Negative
+05 - Branded Defensive,,carfax,Phrase,Negative
+01 - BHPH English Near Me,,autotrader,Phrase,Negative
+02 - Local Florida Geo,,autotrader,Phrase,Negative
+03 - BHPH Spanish,,autotrader,Phrase,Negative
+04 - Trade-In,,autotrader,Phrase,Negative
+05 - Branded Defensive,,autotrader,Phrase,Negative
+01 - BHPH English Near Me,,cars.com,Phrase,Negative
+02 - Local Florida Geo,,cars.com,Phrase,Negative
+03 - BHPH Spanish,,cars.com,Phrase,Negative
+04 - Trade-In,,cars.com,Phrase,Negative
+05 - Branded Defensive,,cars.com,Phrase,Negative
+01 - BHPH English Near Me,,carmax,Phrase,Negative
+02 - Local Florida Geo,,carmax,Phrase,Negative
+03 - BHPH Spanish,,carmax,Phrase,Negative
+04 - Trade-In,,carmax,Phrase,Negative
+05 - Branded Defensive,,carmax,Phrase,Negative
+01 - BHPH English Near Me,,renta,Phrase,Negative
+02 - Local Florida Geo,,renta,Phrase,Negative
+03 - BHPH Spanish,,renta,Phrase,Negative
+04 - Trade-In,,renta,Phrase,Negative
+05 - Branded Defensive,,renta,Phrase,Negative
+01 - BHPH English Near Me,,alquiler,Phrase,Negative
+02 - Local Florida Geo,,alquiler,Phrase,Negative
+03 - BHPH Spanish,,alquiler,Phrase,Negative
+04 - Trade-In,,alquiler,Phrase,Negative
+05 - Branded Defensive,,alquiler,Phrase,Negative
+01 - BHPH English Near Me,,arrendamiento,Phrase,Negative
+02 - Local Florida Geo,,arrendamiento,Phrase,Negative
+03 - BHPH Spanish,,arrendamiento,Phrase,Negative
+04 - Trade-In,,arrendamiento,Phrase,Negative
+05 - Branded Defensive,,arrendamiento,Phrase,Negative
+01 - BHPH English Near Me,,nuevo,Phrase,Negative
+02 - Local Florida Geo,,nuevo,Phrase,Negative
+03 - BHPH Spanish,,nuevo,Phrase,Negative
+04 - Trade-In,,nuevo,Phrase,Negative
+05 - Branded Defensive,,nuevo,Phrase,Negative
+01 - BHPH English Near Me,,trabajo,Phrase,Negative
+02 - Local Florida Geo,,trabajo,Phrase,Negative
+03 - BHPH Spanish,,trabajo,Phrase,Negative
+04 - Trade-In,,trabajo,Phrase,Negative
+05 - Branded Defensive,,trabajo,Phrase,Negative
+01 - BHPH English Near Me,,empleo,Phrase,Negative
+02 - Local Florida Geo,,empleo,Phrase,Negative
+03 - BHPH Spanish,,empleo,Phrase,Negative
+04 - Trade-In,,empleo,Phrase,Negative
+05 - Branded Defensive,,empleo,Phrase,Negative
+01 - BHPH English Near Me,,piezas,Phrase,Negative
+02 - Local Florida Geo,,piezas,Phrase,Negative
+03 - BHPH Spanish,,piezas,Phrase,Negative
+04 - Trade-In,,piezas,Phrase,Negative
+05 - Branded Defensive,,piezas,Phrase,Negative
+01 - BHPH English Near Me,,repuestos,Phrase,Negative
+02 - Local Florida Geo,,repuestos,Phrase,Negative
+03 - BHPH Spanish,,repuestos,Phrase,Negative
+04 - Trade-In,,repuestos,Phrase,Negative
+05 - Branded Defensive,,repuestos,Phrase,Negative
+01 - BHPH English Near Me,,mecánico,Phrase,Negative
+02 - Local Florida Geo,,mecánico,Phrase,Negative
+03 - BHPH Spanish,,mecánico,Phrase,Negative
+04 - Trade-In,,mecánico,Phrase,Negative
+05 - Branded Defensive,,mecánico,Phrase,Negative
+01 - BHPH English Near Me,,mecanico,Phrase,Negative
+02 - Local Florida Geo,,mecanico,Phrase,Negative
+03 - BHPH Spanish,,mecanico,Phrase,Negative
+04 - Trade-In,,mecanico,Phrase,Negative
+05 - Branded Defensive,,mecanico,Phrase,Negative
+01 - BHPH English Near Me,,reparación,Phrase,Negative
+02 - Local Florida Geo,,reparación,Phrase,Negative
+03 - BHPH Spanish,,reparación,Phrase,Negative
+04 - Trade-In,,reparación,Phrase,Negative
+05 - Branded Defensive,,reparación,Phrase,Negative
+01 - BHPH English Near Me,,reparacion,Phrase,Negative
+02 - Local Florida Geo,,reparacion,Phrase,Negative
+03 - BHPH Spanish,,reparacion,Phrase,Negative
+04 - Trade-In,,reparacion,Phrase,Negative
+05 - Branded Defensive,,reparacion,Phrase,Negative
+01 - BHPH English Near Me,,gratis,Phrase,Negative
+02 - Local Florida Geo,,gratis,Phrase,Negative
+03 - BHPH Spanish,,gratis,Phrase,Negative
+04 - Trade-In,,gratis,Phrase,Negative
+05 - Branded Defensive,,gratis,Phrase,Negative
+01 - BHPH English Near Me,,robado,Phrase,Negative
+02 - Local Florida Geo,,robado,Phrase,Negative
+03 - BHPH Spanish,,robado,Phrase,Negative
+04 - Trade-In,,robado,Phrase,Negative
+05 - Branded Defensive,,robado,Phrase,Negative
+01 - BHPH English Near Me,,decomiso,Phrase,Negative
+02 - Local Florida Geo,,decomiso,Phrase,Negative
+03 - BHPH Spanish,,decomiso,Phrase,Negative
+04 - Trade-In,,decomiso,Phrase,Negative
+05 - Branded Defensive,,decomiso,Phrase,Negative
+01 - BHPH English Near Me,,lujo,Phrase,Negative
+02 - Local Florida Geo,,lujo,Phrase,Negative
+03 - BHPH Spanish,,lujo,Phrase,Negative
+04 - Trade-In,,lujo,Phrase,Negative
+05 - Branded Defensive,,lujo,Phrase,Negative
+01 - BHPH English Near Me,,colombia,Phrase,Negative
+02 - Local Florida Geo,,colombia,Phrase,Negative
+03 - BHPH Spanish,,colombia,Phrase,Negative
+04 - Trade-In,,colombia,Phrase,Negative
+05 - Branded Defensive,,colombia,Phrase,Negative
+01 - BHPH English Near Me,,venezuela,Phrase,Negative
+02 - Local Florida Geo,,venezuela,Phrase,Negative
+03 - BHPH Spanish,,venezuela,Phrase,Negative
+04 - Trade-In,,venezuela,Phrase,Negative
+05 - Branded Defensive,,venezuela,Phrase,Negative
+01 - BHPH English Near Me,,mexico,Phrase,Negative
+02 - Local Florida Geo,,mexico,Phrase,Negative
+03 - BHPH Spanish,,mexico,Phrase,Negative
+04 - Trade-In,,mexico,Phrase,Negative
+05 - Branded Defensive,,mexico,Phrase,Negative
+01 - BHPH English Near Me,,méxico,Phrase,Negative
+02 - Local Florida Geo,,méxico,Phrase,Negative
+03 - BHPH Spanish,,méxico,Phrase,Negative
+04 - Trade-In,,méxico,Phrase,Negative
+05 - Branded Defensive,,méxico,Phrase,Negative
+01 - BHPH English Near Me,,craigslist,Phrase,Negative
+02 - Local Florida Geo,,craigslist,Phrase,Negative
+03 - BHPH Spanish,,craigslist,Phrase,Negative
+04 - Trade-In,,craigslist,Phrase,Negative
+05 - Branded Defensive,,craigslist,Phrase,Negative
+01 - BHPH English Near Me,,facebook marketplace,Phrase,Negative
+02 - Local Florida Geo,,facebook marketplace,Phrase,Negative
+03 - BHPH Spanish,,facebook marketplace,Phrase,Negative
+04 - Trade-In,,facebook marketplace,Phrase,Negative
+05 - Branded Defensive,,facebook marketplace,Phrase,Negative
+01 - BHPH English Near Me,,offerup,Phrase,Negative
+02 - Local Florida Geo,,offerup,Phrase,Negative
+03 - BHPH Spanish,,offerup,Phrase,Negative
+04 - Trade-In,,offerup,Phrase,Negative
+05 - Branded Defensive,,offerup,Phrase,Negative

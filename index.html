@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bad credit? No credit? Bankruptcy? Repossession? Drive home today at Keys Motors West Palm Beach. BBB A- accredited, family-owned since 2017.">
+  <title>Keys Motors — Pre-Approved in 2 Minutes | West Palm Beach FL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            'keys-blue': '#0c2c52',
+            'keys-red': '#c91f1f',
+            'keys-gold': '#f4a700',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .lang-es { display: none; }
+    [data-lang="es"] .lang-en { display: none; }
+    [data-lang="es"] .lang-es { display: inline; }
+    @media (max-width: 640px) {
+      .hero-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="font-sans bg-white text-slate-900 antialiased">
+
+  <!-- ============ STICKY HEADER ============ -->
+  <header class="sticky top-0 z-50 bg-keys-blue text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="text-xl font-extrabold tracking-tight">KEYS<span class="text-keys-gold">MOTORS</span></div>
+      </div>
+      <div class="hidden md:flex items-center gap-5 text-sm">
+        <a href="tel:+15616531765" class="flex items-center gap-1.5 hover:text-keys-gold transition">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          <span class="font-semibold">(561) 653-1765</span>
+        </a>
+        <a href="#inventory" class="hover:text-keys-gold transition"><span class="lang-en">Inventory</span><span class="lang-es">Inventario</span></a>
+        <a href="#financing" class="hover:text-keys-gold transition"><span class="lang-en">Financing</span><span class="lang-es">Financiamiento</span></a>
+        <a href="#trade-in" class="hover:text-keys-gold transition"><span class="lang-en">Trade-In</span><span class="lang-es">Trade-In</span></a>
+        <a href="#contact" class="hover:text-keys-gold transition"><span class="lang-en">Contact</span><span class="lang-es">Contacto</span></a>
+      </div>
+      <button id="langToggle" class="bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-md text-sm font-semibold transition border border-white/20">
+        <span class="lang-en">🇪🇸 Español</span>
+        <span class="lang-es">🇺🇸 English</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="relative bg-gradient-to-br from-keys-blue via-slate-900 to-keys-blue text-white overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22 viewBox=%220 0 40 40%22><path fill=%22%23ffffff%22 d=%22M0 0h40v40H0z%22/></svg>')]"></div>
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24">
+      <div class="grid hero-grid md:grid-cols-5 gap-10 items-center">
+
+        <!-- HERO LEFT (Copy) -->
+        <div class="md:col-span-3">
+          <div class="inline-flex items-center gap-2 bg-keys-gold/20 text-keys-gold border border-keys-gold/40 rounded-full px-3 py-1 text-xs font-semibold mb-6">
+            <span class="w-2 h-2 bg-keys-gold rounded-full animate-pulse"></span>
+            <span class="lang-en">Family-owned · West Palm Beach FL · 9 years</span>
+            <span class="lang-es">Familia propietaria · West Palm Beach FL · 9 años</span>
+          </div>
+
+          <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6">
+            <span class="lang-en">
+              Bad credit? No credit?<br>
+              Bankruptcy? Repossession?<br>
+              <span class="text-keys-gold">Drive home today.</span>
+            </span>
+            <span class="lang-es">
+              ¿Mal crédito? ¿Sin crédito?<br>
+              ¿Bancarrota? ¿Repossession?<br>
+              <span class="text-keys-gold">Llévate tu carro hoy.</span>
+            </span>
+          </h1>
+
+          <p class="text-lg md:text-xl text-white/80 mb-6 max-w-2xl">
+            <span class="lang-en">Get pre-approved in <strong class="text-white">under 2 minutes</strong>. Your job is your credit. Hablamos español.</span>
+            <span class="lang-es">Pre-aprobación en <strong class="text-white">menos de 2 minutos</strong>. Tu trabajo es tu crédito. We speak English too.</span>
+          </p>
+
+          <!-- VALUE PROP BULLETS -->
+          <ul class="space-y-2 mb-8 text-base">
+            <li class="flex items-start gap-2"><span class="text-keys-gold mt-1">✓</span><span class="lang-en">In-house financing — <strong>we are the bank</strong></span><span class="lang-es">Financiamiento propio — <strong>nosotros somos el banco</strong></span></li>
+            <li class="flex items-start gap-2"><span class="text-keys-gold mt-1">✓</span><span class="lang-en"><strong>$1,500 down</strong> options available</span><span class="lang-es">Opciones desde <strong>$1,500 inicial</strong></span></li>
+            <li class="flex items-start gap-2"><span class="text-keys-gold mt-1">✓</span><span class="lang-en">BBB Accredited <strong>A-</strong> rating since 2020</span><span class="lang-es">BBB Acreditado calificación <strong>A-</strong> desde 2020</span></li>
+            <li class="flex items-start gap-2"><span class="text-keys-gold mt-1">✓</span><span class="lang-en">No SSN required to start — <strong>ITIN OK</strong></span><span class="lang-es">No requiere SSN para empezar — <strong>ITIN aceptado</strong></span></li>
+          </ul>
+
+          <!-- MULTI-CTA STACK (verified pattern from 3 dealers) -->
+          <div class="flex flex-wrap gap-3">
+            <a href="#form" class="bg-keys-gold hover:bg-yellow-400 text-keys-blue font-bold px-7 py-4 rounded-lg text-lg shadow-lg transition transform hover:scale-105">
+              <span class="lang-en">Start Here! →</span>
+              <span class="lang-es">¡Empieza aquí! →</span>
+            </a>
+            <a href="#inventory" class="bg-white/10 hover:bg-white/20 backdrop-blur border border-white/30 font-semibold px-5 py-4 rounded-lg text-base transition">
+              <span class="lang-en">Browse Inventory</span>
+              <span class="lang-es">Ver Inventario</span>
+            </a>
+            <a href="tel:+15616531765" class="bg-white/10 hover:bg-white/20 backdrop-blur border border-white/30 font-semibold px-5 py-4 rounded-lg text-base transition">
+              <span class="lang-en">📞 Call Now</span>
+              <span class="lang-es">📞 Llama Ya</span>
+            </a>
+            <a href="#trade-in" class="bg-white/10 hover:bg-white/20 backdrop-blur border border-white/30 font-semibold px-5 py-4 rounded-lg text-base transition">
+              <span class="lang-en">Trade-In Value</span>
+              <span class="lang-es">Valor de Trade-In</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- HERO RIGHT (Form) -->
+        <div class="md:col-span-2">
+          <div id="form" class="bg-white text-slate-900 rounded-2xl shadow-2xl p-6 md:p-8">
+            <div class="mb-5">
+              <div class="text-xs font-bold uppercase tracking-wider text-keys-red mb-2">
+                <span class="lang-en">⚡ Free · No Obligation · 2 Minutes</span>
+                <span class="lang-es">⚡ Gratis · Sin compromiso · 2 minutos</span>
+              </div>
+              <h2 class="text-2xl font-extrabold leading-tight">
+                <span class="lang-en">Get Pre-Approved Now</span>
+                <span class="lang-es">Pre-aprueba tu carro ahora</span>
+              </h2>
+              <p class="text-sm text-slate-600 mt-1">
+                <span class="lang-en">Tell us a bit about you. We'll call within 1 business hour.</span>
+                <span class="lang-es">Cuéntanos un poco de ti. Te llamamos en 1 hora hábil.</span>
+              </p>
+            </div>
+
+            <form id="leadForm" class="space-y-3">
+              <!-- Name row -->
+              <div class="grid grid-cols-2 gap-3">
+                <input type="text" name="firstName" required placeholder="" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm" data-placeholder-en="First name" data-placeholder-es="Nombre">
+                <input type="text" name="lastName" required placeholder="" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm" data-placeholder-en="Last name" data-placeholder-es="Apellido">
+              </div>
+
+              <!-- Phone -->
+              <input type="tel" name="phone" required placeholder="" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm" data-placeholder-en="Phone (10 digits)" data-placeholder-es="Teléfono (10 dígitos)">
+
+              <!-- Email -->
+              <input type="email" name="email" required placeholder="" class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm" data-placeholder-en="Email" data-placeholder-es="Correo electrónico">
+
+              <!-- Vehicle Interest -->
+              <select name="vehicleType" required class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm bg-white">
+                <option value="" disabled selected>
+                  <span class="lang-en">— Vehicle of interest —</span>
+                  <span class="lang-es">— Tipo de vehículo —</span>
+                </option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="truck">Truck / Camioneta</option>
+                <option value="van">Van / Minivan</option>
+                <option value="any">Any / Cualquiera</option>
+              </select>
+
+              <!-- Monthly Income (BHPH classic question) -->
+              <select name="monthlyIncome" required class="w-full border border-slate-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-keys-blue text-sm bg-white">
+                <option value="" disabled selected>
+                  <span class="lang-en">— Monthly income —</span>
+                  <span class="lang-es">— Ingreso mensual —</span>
+                </option>
+                <option value="under-1500">&lt; $1,500</option>
+                <option value="1500-2500">$1,500 – $2,500</option>
+                <option value="2500-4000">$2,500 – $4,000</option>
+                <option value="4000-plus">$4,000+</option>
+              </select>
+
+              <!-- Submit -->
+              <button type="submit" class="w-full bg-keys-red hover:bg-red-700 text-white font-bold py-3.5 rounded-lg text-base transition transform hover:scale-[1.02] shadow-md">
+                <span class="lang-en">🚗 Get My Pre-Approval →</span>
+                <span class="lang-es">🚗 Pre-apruébame ahora →</span>
+              </button>
+
+              <p class="text-xs text-slate-500 text-center">
+                <span class="lang-en">By submitting you agree to receive calls/texts about your inquiry. No spam.</span>
+                <span class="lang-es">Al enviar aceptas recibir llamadas/textos sobre tu solicitud. Sin spam.</span>
+              </p>
+            </form>
+
+            <!-- Success state (hidden by default) -->
+            <div id="successState" class="hidden text-center py-8">
+              <div class="text-5xl mb-3">✅</div>
+              <h3 class="text-xl font-bold mb-2">
+                <span class="lang-en">You're pre-qualified!</span>
+                <span class="lang-es">¡Estás pre-calificado!</span>
+              </h3>
+              <p class="text-slate-600 text-sm mb-4">
+                <span class="lang-en">A specialist will call you shortly at the number you provided.</span>
+                <span class="lang-es">Un especialista te llamará pronto al número que diste.</span>
+              </p>
+              <a href="tel:+15616531765" class="inline-block bg-keys-blue text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-slate-800 transition">
+                <span class="lang-en">Or call us now: (561) 653-1765</span>
+                <span class="lang-es">O llámanos ya: (561) 653-1765</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="bg-white border-y border-slate-200 py-6">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6 items-center text-center">
+        <div>
+          <div class="text-3xl font-black text-keys-blue">9</div>
+          <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">
+            <span class="lang-en">Years in business</span>
+            <span class="lang-es">Años en el negocio</span>
+          </div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-keys-blue">A-</div>
+          <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">BBB Rating</div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-keys-blue">70+</div>
+          <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">
+            <span class="lang-en">Vehicles in stock</span>
+            <span class="lang-es">Vehículos en stock</span>
+          </div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-keys-blue">2 min</div>
+          <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">
+            <span class="lang-en">Pre-approval</span>
+            <span class="lang-es">Pre-aprobación</span>
+          </div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-keys-blue">🇪🇸</div>
+          <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">
+            <span class="lang-en">Hablamos español</span>
+            <span class="lang-es">English & Español</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINANCING SECTION (Credit objection enumeration — verified pattern) ============ -->
+  <section id="financing" class="bg-slate-50 py-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-black mb-3">
+          <span class="lang-en">Your <span class="text-keys-red">job</span> is your <span class="text-keys-red">credit</span></span>
+          <span class="lang-es">Tu <span class="text-keys-red">trabajo</span> es tu <span class="text-keys-red">crédito</span></span>
+        </h2>
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+          <span class="lang-en">Banks said no? We say <strong>yes</strong>. We finance our own customers — no traditional bank approval needed.</span>
+          <span class="lang-es">¿Los bancos te dijeron no? Nosotros decimos <strong>sí</strong>. Financiamos nuestros propios clientes — sin aprobación bancaria tradicional.</span>
+        </p>
+      </div>
+
+      <!-- Credit situation grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">📉</div>
+          <div class="font-bold text-sm"><span class="lang-en">Bad credit</span><span class="lang-es">Mal crédito</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">Below 600 OK</span><span class="lang-es">Bajo 600 OK</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">🆕</div>
+          <div class="font-bold text-sm"><span class="lang-en">No credit</span><span class="lang-es">Sin crédito</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">First-time buyer</span><span class="lang-es">Primer carro</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">⚖️</div>
+          <div class="font-bold text-sm"><span class="lang-en">Bankruptcy</span><span class="lang-es">Bancarrota</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">Chapter 7 or 13 OK</span><span class="lang-es">Capítulo 7 o 13 OK</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">🚗</div>
+          <div class="font-bold text-sm"><span class="lang-en">Repossession</span><span class="lang-es">Repossession</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">Past repos OK</span><span class="lang-es">Repos anteriores OK</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">💍</div>
+          <div class="font-bold text-sm"><span class="lang-en">Divorce</span><span class="lang-es">Divorcio</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">Credit hit OK</span><span class="lang-es">Crédito afectado OK</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">🆔</div>
+          <div class="font-bold text-sm">ITIN</div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">No SSN required</span><span class="lang-es">Sin SSN requerido</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">💼</div>
+          <div class="font-bold text-sm"><span class="lang-en">Self-employed</span><span class="lang-es">Independiente</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">1099 / cash OK</span><span class="lang-es">1099 / efectivo OK</span></div>
+        </div>
+        <div class="bg-white rounded-xl p-5 text-center border border-slate-200">
+          <div class="text-3xl mb-2">📵</div>
+          <div class="font-bold text-sm"><span class="lang-en">No co-signer needed</span><span class="lang-es">Sin co-firmante</span></div>
+          <div class="text-xs text-slate-500 mt-1"><span class="lang-en">Yourself only</span><span class="lang-es">Tú solo</span></div>
+        </div>
+      </div>
+
+      <!-- 3-step process -->
+      <div class="bg-keys-blue text-white rounded-2xl p-8 md:p-10 shadow-xl">
+        <h3 class="text-2xl font-bold mb-6 text-center">
+          <span class="lang-en">How it works — 3 steps</span>
+          <span class="lang-es">Cómo funciona — 3 pasos</span>
+        </h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div>
+            <div class="text-keys-gold text-3xl font-black mb-1">1</div>
+            <div class="font-bold mb-1"><span class="lang-en">Apply online</span><span class="lang-es">Aplica online</span></div>
+            <div class="text-sm text-white/70"><span class="lang-en">2 minutes, no credit pull yet</span><span class="lang-es">2 minutos, sin tocar tu crédito aún</span></div>
+          </div>
+          <div>
+            <div class="text-keys-gold text-3xl font-black mb-1">2</div>
+            <div class="font-bold mb-1"><span class="lang-en">We call within 1 hour</span><span class="lang-es">Te llamamos en 1 hora</span></div>
+            <div class="text-sm text-white/70"><span class="lang-en">Approval + down payment match</span><span class="lang-es">Aprobación + opciones de inicial</span></div>
+          </div>
+          <div>
+            <div class="text-keys-gold text-3xl font-black mb-1">3</div>
+            <div class="font-bold mb-1"><span class="lang-en">Drive home same day</span><span class="lang-es">Maneja a casa el mismo día</span></div>
+            <div class="text-sm text-white/70"><span class="lang-en">Title + keys, same visit</span><span class="lang-es">Título + llaves, misma visita</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INVENTORY TEASER ============ -->
+  <section id="inventory" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-black mb-2">
+            <span class="lang-en">Pick your ride</span>
+            <span class="lang-es">Elige tu carro</span>
+          </h2>
+          <p class="text-slate-600"><span class="lang-en">70+ vehicles on the lot. Updated daily.</span><span class="lang-es">70+ vehículos disponibles. Actualizado a diario.</span></p>
+        </div>
+        <a href="#form" class="mt-4 md:mt-0 inline-block bg-keys-red hover:bg-red-700 text-white font-bold px-5 py-3 rounded-lg transition">
+          <span class="lang-en">Get pre-approved first →</span>
+          <span class="lang-es">Pre-aprueba primero →</span>
+        </a>
+      </div>
+
+      <!-- Inventory placeholder grid — Carlos to swap with real inventory feed -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Repeat 8x -->
+        <template id="vehicleCard"></template>
+        <div class="bg-slate-100 rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition group">
+          <div class="aspect-[4/3] bg-gradient-to-br from-slate-300 to-slate-400 flex items-center justify-center text-slate-600 text-sm font-medium group-hover:opacity-90 transition">[Vehicle photo]</div>
+          <div class="p-3">
+            <div class="font-bold text-sm">2018 Honda Civic LX</div>
+            <div class="text-xs text-slate-500">68,432 mi · Auto · 4-cyl</div>
+            <div class="mt-2 flex items-baseline justify-between">
+              <div class="text-keys-red font-black">$13,995</div>
+              <div class="text-xs text-slate-500">$329/mo*</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition group">
+          <div class="aspect-[4/3] bg-gradient-to-br from-slate-300 to-slate-400 flex items-center justify-center text-slate-600 text-sm font-medium">[Vehicle photo]</div>
+          <div class="p-3">
+            <div class="font-bold text-sm">2019 Toyota Corolla LE</div>
+            <div class="text-xs text-slate-500">52,118 mi · Auto · 4-cyl</div>
+            <div class="mt-2 flex items-baseline justify-between">
+              <div class="text-keys-red font-black">$15,495</div>
+              <div class="text-xs text-slate-500">$359/mo*</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition group">
+          <div class="aspect-[4/3] bg-gradient-to-br from-slate-300 to-slate-400 flex items-center justify-center text-slate-600 text-sm font-medium">[Vehicle photo]</div>
+          <div class="p-3">
+            <div class="font-bold text-sm">2017 Nissan Rogue SV</div>
+            <div class="text-xs text-slate-500">71,290 mi · Auto · AWD</div>
+            <div class="mt-2 flex items-baseline justify-between">
+              <div class="text-keys-red font-black">$14,750</div>
+              <div class="text-xs text-slate-500">$345/mo*</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition group">
+          <div class="aspect-[4/3] bg-gradient-to-br from-slate-300 to-slate-400 flex items-center justify-center text-slate-600 text-sm font-medium">[Vehicle photo]</div>
+          <div class="p-3">
+            <div class="font-bold text-sm">2016 Ford F-150 XLT</div>
+            <div class="text-xs text-slate-500">89,654 mi · Auto · V8</div>
+            <div class="mt-2 flex items-baseline justify-between">
+              <div class="text-keys-red font-black">$19,995</div>
+              <div class="text-xs text-slate-500">$429/mo*</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-xs text-slate-400 mt-4">* <span class="lang-en">Estimated monthly payments based on approved credit. Actual terms may vary.</span><span class="lang-es">Pago mensual estimado basado en crédito aprobado. Términos finales pueden variar.</span></p>
+    </div>
+  </section>
+
+  <!-- ============ CREDIT GRADUATION (verified pattern from OK Carz) ============ -->
+  <section class="bg-gradient-to-r from-keys-blue to-slate-900 text-white py-16">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <div class="inline-block bg-keys-gold/20 text-keys-gold border border-keys-gold/40 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-6">
+        <span class="lang-en">Credit Builder Program</span>
+        <span class="lang-es">Programa Constructor de Crédito</span>
+      </div>
+      <h2 class="text-3xl md:text-4xl font-black mb-4">
+        <span class="lang-en">12 months of on-time payments = <span class="text-keys-gold">new credit life</span></span>
+        <span class="lang-es">12 meses pagando a tiempo = <span class="text-keys-gold">nueva vida crediticia</span></span>
+      </h2>
+      <p class="text-lg text-white/80 max-w-3xl mx-auto mb-8">
+        <span class="lang-en">We report your on-time payments to the credit bureaus. After 12 months, you'll qualify for traditional bank financing on your <strong>next</strong> car — at much lower rates.</span>
+        <span class="lang-es">Reportamos tus pagos a tiempo a las agencias de crédito. Después de 12 meses, calificarás para financiamiento bancario tradicional en tu <strong>próximo</strong> carro — con tasas mucho más bajas.</span>
+      </p>
+      <a href="#form" class="inline-block bg-keys-gold hover:bg-yellow-400 text-keys-blue font-bold px-7 py-4 rounded-lg text-lg shadow-lg transition transform hover:scale-105">
+        <span class="lang-en">Start building credit today →</span>
+        <span class="lang-es">Empieza a construir crédito hoy →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ TRADE-IN ============ -->
+  <section id="trade-in" class="bg-white py-16">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-black mb-4">
+          <span class="lang-en">Trade in your old car</span>
+          <span class="lang-es">Cambia tu carro viejo</span>
+        </h2>
+        <p class="text-slate-600 mb-6 text-lg">
+          <span class="lang-en">Even if it's not running. Even if you still owe on it. We buy any vehicle and apply the value to your down payment.</span>
+          <span class="lang-es">Aunque no esté funcionando. Aunque debas dinero por él. Compramos cualquier vehículo y aplicamos el valor a tu inicial.</span>
+        </p>
+        <ul class="space-y-2 mb-6">
+          <li class="flex items-start gap-2"><span class="text-keys-red mt-1">✓</span><span class="text-slate-700"><span class="lang-en">Free appraisal in 30 minutes</span><span class="lang-es">Avalúo gratis en 30 minutos</span></span></li>
+          <li class="flex items-start gap-2"><span class="text-keys-red mt-1">✓</span><span class="text-slate-700"><span class="lang-en">Any make, model, or condition</span><span class="lang-es">Cualquier marca, modelo o condición</span></span></li>
+          <li class="flex items-start gap-2"><span class="text-keys-red mt-1">✓</span><span class="text-slate-700"><span class="lang-en">We handle the paperwork</span><span class="lang-es">Nosotros manejamos el papeleo</span></span></li>
+        </ul>
+        <a href="#form" class="inline-block bg-keys-red hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition">
+          <span class="lang-en">Get my trade-in value →</span>
+          <span class="lang-es">Avalúa mi carro →</span>
+        </a>
+      </div>
+      <div class="bg-slate-100 rounded-2xl aspect-[4/3] flex items-center justify-center text-slate-500 text-sm">
+        [Trade-in photo placeholder]
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ADDRESS + MAP ============ -->
+  <section id="contact" class="bg-slate-100 py-16">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-black mb-4">
+          <span class="lang-en">Visit us</span>
+          <span class="lang-es">Visítanos</span>
+        </h2>
+        <div class="space-y-4 text-lg">
+          <div>
+            <div class="font-bold text-keys-blue">Keys Motors West Palm Beach</div>
+            <div class="text-slate-700">2480 N Military Trl<br>West Palm Beach, FL 33409</div>
+          </div>
+          <div>
+            <div class="font-bold text-keys-blue"><span class="lang-en">Phone</span><span class="lang-es">Teléfono</span></div>
+            <a href="tel:+15616531765" class="text-keys-red font-semibold hover:underline">(561) 653-1765</a>
+          </div>
+          <div>
+            <div class="font-bold text-keys-blue"><span class="lang-en">Hours</span><span class="lang-es">Horario</span></div>
+            <div class="text-slate-700">
+              <span class="lang-en">Mon–Sat: 9:00 AM – 7:00 PM<br>Sun: 11:00 AM – 5:00 PM</span>
+              <span class="lang-es">Lun–Sáb: 9:00 AM – 7:00 PM<br>Dom: 11:00 AM – 5:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md aspect-[4/3] md:aspect-auto min-h-[300px]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.0!2d-80.117!3d26.713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjQ4MCBOIE1pbGl0YXJ5IFRyYWlsLCBXZXN0IFBhbG0gQmVhY2gsIEZMIDMzNDA5!5e0!3m2!1sen!2sus!4v0"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-keys-blue text-white py-10">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="text-2xl font-extrabold mb-2">KEYS<span class="text-keys-gold">MOTORS</span></div>
+          <p class="text-sm text-white/70">
+            <span class="lang-en">Family-owned used car dealer serving South Florida since 2017.</span>
+            <span class="lang-es">Concesionario familiar de carros usados sirviendo al sur de Florida desde 2017.</span>
+          </p>
+          <div class="mt-4 inline-flex items-center gap-2 bg-white/10 px-3 py-1.5 rounded text-xs">
+            <span class="text-keys-gold">BBB</span>
+            <span>Accredited A-</span>
+          </div>
+        </div>
+        <div>
+          <div class="font-bold mb-3"><span class="lang-en">Quick links</span><span class="lang-es">Enlaces rápidos</span></div>
+          <ul class="space-y-1.5 text-sm text-white/80">
+            <li><a href="#inventory" class="hover:text-keys-gold"><span class="lang-en">Inventory</span><span class="lang-es">Inventario</span></a></li>
+            <li><a href="#financing" class="hover:text-keys-gold"><span class="lang-en">Financing</span><span class="lang-es">Financiamiento</span></a></li>
+            <li><a href="#trade-in" class="hover:text-keys-gold"><span class="lang-en">Trade-In</span><span class="lang-es">Trade-In</span></a></li>
+            <li><a href="#form" class="hover:text-keys-gold"><span class="lang-en">Pre-Approval</span><span class="lang-es">Pre-aprobación</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold mb-3"><span class="lang-en">Locations</span><span class="lang-es">Ubicaciones</span></div>
+          <ul class="space-y-1.5 text-sm text-white/80">
+            <li>West Palm Beach (Main)</li>
+            <li>Orlando</li>
+            <li>Miami</li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold mb-3"><span class="lang-en">Contact</span><span class="lang-es">Contacto</span></div>
+          <ul class="space-y-1.5 text-sm text-white/80">
+            <li><a href="tel:+15616531765" class="hover:text-keys-gold">(561) 653-1765</a></li>
+            <li>2480 N Military Trl<br>West Palm Beach, FL 33409</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 text-xs text-white/50 flex flex-col md:flex-row justify-between gap-2">
+        <div>© 2026 Keys Motors. All rights reserved.</div>
+        <div><span class="lang-en">Subject to credit approval. See store for details.</span><span class="lang-es">Sujeto a aprobación de crédito. Ver tienda para detalles.</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ JS ============ -->
+  <script>
+    // Language toggle
+    const html = document.documentElement;
+    const langBtn = document.getElementById('langToggle');
+    function setLang(lang) {
+      html.setAttribute('data-lang', lang);
+      html.setAttribute('lang', lang);
+      // Update placeholder attrs
+      document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+        el.placeholder = el.getAttribute(`data-placeholder-${lang}`) || el.getAttribute('data-placeholder-en');
+      });
+      localStorage.setItem('keys_lang', lang);
+    }
+    langBtn.addEventListener('click', () => {
+      const current = html.getAttribute('data-lang') || 'en';
+      setLang(current === 'en' ? 'es' : 'en');
+    });
+    // Init from localStorage or browser locale
+    const saved = localStorage.getItem('keys_lang');
+    const browserEs = navigator.language.startsWith('es');
+    setLang(saved || (browserEs ? 'es' : 'en'));
+
+    // ─────────────────────────────────────────────────────────────
+    // Form submission — DIRECT POST to GHL Contacts API
+    // ⚠️ Security trade-off: PIT token is exposed in client JS. Acceptable for MVP
+    //    if (1) token is rotated periodically, (2) low-stakes context, (3) rate
+    //    limit risk understood. Upgrade to Worker proxy (see worker.js) for prod.
+    // Tokens scope = contacts only — even if leaked, attacker can only create
+    // junk contacts, not pull/exfiltrate existing customer data.
+    // ─────────────────────────────────────────────────────────────
+    const GHL_TOKEN = 'pit-11e60db1-6362-4627-884c-a27c91747861';
+    const GHL_LOCATION_ID = '1JkhDyRzZIktNwLCLPKD';
+    const FIELD_VEHICLE_TYPE = '4LaTXflLobJ6VDULZfzq';
+    const FIELD_MONTHLY_INCOME = 'lhnLP0MqawYA0rxOvb16';
+
+    const form = document.getElementById('leadForm');
+    const successState = document.getElementById('successState');
+
+    function normalizePhone(raw) {
+      const digits = raw.replace(/[^\d+]/g, '');
+      if (digits.startsWith('+')) return digits;
+      return '+1' + digits.replace(/\D/g, '');
+    }
+
+    const SOURCE_LABEL = 'Google Ads - Keys Motors Landing v1';
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalLabel = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="lang-en">Submitting…</span><span class="lang-es">Enviando…</span>';
+
+      const fd = new FormData(form);
+      const vehicleType = fd.get('vehicleType') || '';
+      const monthlyIncome = fd.get('monthlyIncome') || '';
+
+      const payload = {
+        locationId: GHL_LOCATION_ID,
+        firstName: (fd.get('firstName') || '').slice(0, 100),
+        lastName: (fd.get('lastName') || '').slice(0, 100),
+        email: (fd.get('email') || '').toLowerCase().slice(0, 200),
+        phone: normalizePhone(fd.get('phone') || ''),
+        source: SOURCE_LABEL,
+        tags: [
+          'google-ads-lead',
+          'landing-v1',
+          `vehicle:${vehicleType}`,
+          `income:${monthlyIncome}`,
+        ],
+        customFields: [
+          { id: FIELD_VEHICLE_TYPE, field_value: vehicleType },
+          { id: FIELD_MONTHLY_INCOME, field_value: monthlyIncome },
+        ],
+      };
+
+      try {
+        const resp = await fetch('https://services.leadconnectorhq.com/contacts/', {
+          method: 'POST',
+          headers: {
+            'Authorization': 'Bearer ' + GHL_TOKEN,
+            'Version': '2021-07-28',
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          body: JSON.stringify(payload),
+        });
+
+        if (resp.ok) {
+          form.classList.add('hidden');
+          successState.classList.remove('hidden');
+          // Google Ads conversion event (replace AW-XXX/LABEL after creating conv action)
+          if (window.gtag) {
+            window.gtag('event', 'conversion', {
+              send_to: 'AW-XXXXXXXXXX/CONVERSION_LABEL',
+              event_callback: () => {},
+            });
+          }
+          // Meta Pixel lead event (if pixel installed)
+          if (window.fbq) window.fbq('track', 'Lead');
+        } else {
+          const errBody = await resp.text();
+          console.error('GHL error:', resp.status, errBody);
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalLabel;
+          alert(
+            (document.documentElement.getAttribute('data-lang') === 'es'
+              ? 'No pudimos enviar tu solicitud. Por favor llámanos: (561) 653-1765'
+              : 'We could not submit your request. Please call us: (561) 653-1765')
+          );
+        }
+      } catch (err) {
+        console.error('Network error:', err);
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalLabel;
+        alert(
+          (document.documentElement.getAttribute('data-lang') === 'es'
+            ? 'Error de red. Por favor llámanos: (561) 653-1765'
+            : 'Network error. Please call us: (561) 653-1765')
+        );
+      }
+    });
+  </script>
+
+</body>
+</html>

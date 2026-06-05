@@ -1,0 +1,478 @@
+{
+  "timestamp": "2026-06-05T16:05:31.254347",
+  "geo_base": "US",
+  "singles": [
+    {
+      "keyword": "buy here pay here",
+      "geo": "US",
+      "trend_first_value": 55,
+      "trend_last_value": 63,
+      "trend_peak": 100,
+      "trend_avg": 59.5,
+      "trend_direction": "up",
+      "top_states": [
+        {
+          "state": "Alabama",
+          "score": 100
+        },
+        {
+          "state": "South Carolina",
+          "score": 98
+        },
+        {
+          "state": "Georgia",
+          "score": 90
+        },
+        {
+          "state": "North Carolina",
+          "score": 90
+        },
+        {
+          "state": "Kentucky",
+          "score": 83
+        },
+        {
+          "state": "West Virginia",
+          "score": 82
+        },
+        {
+          "state": "Ohio",
+          "score": 82
+        },
+        {
+          "state": "Tennessee",
+          "score": 75
+        },
+        {
+          "state": "Indiana",
+          "score": 68
+        },
+        {
+          "state": "Delaware",
+          "score": 67
+        }
+      ],
+      "florida_score": 54,
+      "florida_rank": 11,
+      "top_related": [
+        {
+          "query": "buy here pay here car",
+          "value": 100
+        },
+        {
+          "query": "buy here pay here near me",
+          "value": 89
+        },
+        {
+          "query": "buy pay here near me",
+          "value": 78
+        },
+        {
+          "query": "buy here pay here lots",
+          "value": 48
+        },
+        {
+          "query": "buy here pay here dealerships",
+          "value": 24
+        },
+        {
+          "query": "buy here pay here auto sales",
+          "value": 21
+        },
+        {
+          "query": "buy here pay here no credit check",
+          "value": 17
+        },
+        {
+          "query": "buy here pay here car dealerships",
+          "value": 11
+        },
+        {
+          "query": "buy here pay here cars near me",
+          "value": 11
+        },
+        {
+          "query": "buy here pay here lots near me",
+          "value": 11
+        }
+      ],
+      "rising_related": [
+        {
+          "query": "buy here pay here dealer near me",
+          "value": 150
+        },
+        {
+          "query": "best buy here pay here near me",
+          "value": 70
+        },
+        {
+          "query": "buy here pay here auto dealers",
+          "value": 70
+        },
+        {
+          "query": "buy here pay here chicago",
+          "value": 60
+        },
+        {
+          "query": "what is buy here pay here",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "keyword": "carros usados en venta",
+      "geo": "US",
+      "trend_first_value": 84,
+      "trend_last_value": 70,
+      "trend_peak": 100,
+      "trend_avg": 78.4,
+      "trend_direction": "down",
+      "top_states": [
+        {
+          "state": "New Jersey",
+          "score": 100
+        },
+        {
+          "state": "New Mexico",
+          "score": 95
+        },
+        {
+          "state": "Florida",
+          "score": 90
+        },
+        {
+          "state": "California",
+          "score": 80
+        },
+        {
+          "state": "Texas",
+          "score": 71
+        },
+        {
+          "state": "New York",
+          "score": 69
+        },
+        {
+          "state": "Maryland",
+          "score": 67
+        },
+        {
+          "state": "Nevada",
+          "score": 65
+        },
+        {
+          "state": "Connecticut",
+          "score": 59
+        },
+        {
+          "state": "Illinois",
+          "score": 57
+        }
+      ],
+      "florida_score": 90,
+      "florida_rank": 3,
+      "top_related": [
+        {
+          "query": "carros usados en venta baratos",
+          "value": 100
+        },
+        {
+          "query": "carros usados en venta en miami",
+          "value": 32
+        },
+        {
+          "query": "carros usados en venta baratos cerca de mi",
+          "value": 23
+        },
+        {
+          "query": "carros usados en venta colombia",
+          "value": 18
+        },
+        {
+          "query": "carros usados en venta nj",
+          "value": 16
+        },
+        {
+          "query": "carros usados en venta por el dueño",
+          "value": 15
+        },
+        {
+          "query": "carros usados en venta new york",
+          "value": 12
+        },
+        {
+          "query": "craigslist carros usados en venta por dueños",
+          "value": 5
+        }
+      ],
+      "rising_related": [
+        {
+          "query": "carros usados en venta colombia",
+          "value": 50
+        },
+        {
+          "query": "craigslist carros usados en venta por dueños",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "keyword": "bad credit car dealer",
+      "geo": "US",
+      "trend_first_value": 0,
+      "trend_last_value": 53,
+      "trend_peak": 100,
+      "trend_avg": 41.3,
+      "trend_direction": "up",
+      "top_states": [
+        {
+          "state": "Rhode Island",
+          "score": 100
+        },
+        {
+          "state": "Connecticut",
+          "score": 69
+        },
+        {
+          "state": "Pennsylvania",
+          "score": 29
+        },
+        {
+          "state": "Illinois",
+          "score": 28
+        },
+        {
+          "state": "Wisconsin",
+          "score": 27
+        },
+        {
+          "state": "New Jersey",
+          "score": 22
+        },
+        {
+          "state": "New York",
+          "score": 21
+        },
+        {
+          "state": "Minnesota",
+          "score": 20
+        },
+        {
+          "state": "Missouri",
+          "score": 18
+        },
+        {
+          "state": "Arizona",
+          "score": 18
+        }
+      ],
+      "florida_score": 16,
+      "florida_rank": 16,
+      "top_related": [
+        {
+          "query": "bad credit car dealer near me",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "keyword": "carros baratos usados",
+      "geo": "US",
+      "trend_first_value": 71,
+      "trend_last_value": 43,
+      "trend_peak": 100,
+      "trend_avg": 63.2,
+      "trend_direction": "down",
+      "top_states": [
+        {
+          "state": "California",
+          "score": 100
+        },
+        {
+          "state": "Arkansas",
+          "score": 67
+        },
+        {
+          "state": "Massachusetts",
+          "score": 61
+        },
+        {
+          "state": "Florida",
+          "score": 58
+        },
+        {
+          "state": "New Jersey",
+          "score": 51
+        },
+        {
+          "state": "Texas",
+          "score": 49
+        },
+        {
+          "state": "New York",
+          "score": 47
+        },
+        {
+          "state": "Iowa",
+          "score": 47
+        },
+        {
+          "state": "Arizona",
+          "score": 46
+        },
+        {
+          "state": "Oregon",
+          "score": 40
+        }
+      ],
+      "florida_score": 58,
+      "florida_rank": 4
+    },
+    {
+      "keyword": "kbb trade in value",
+      "geo": "US",
+      "trend_first_value": 58,
+      "trend_last_value": 62,
+      "trend_peak": 100,
+      "trend_avg": 69.9,
+      "trend_direction": "stable",
+      "top_states": [
+        {
+          "state": "New Hampshire",
+          "score": 100
+        },
+        {
+          "state": "Vermont",
+          "score": 90
+        },
+        {
+          "state": "Maine",
+          "score": 71
+        },
+        {
+          "state": "Rhode Island",
+          "score": 70
+        },
+        {
+          "state": "Wyoming",
+          "score": 67
+        },
+        {
+          "state": "Massachusetts",
+          "score": 66
+        },
+        {
+          "state": "Delaware",
+          "score": 60
+        },
+        {
+          "state": "Pennsylvania",
+          "score": 52
+        },
+        {
+          "state": "Connecticut",
+          "score": 51
+        },
+        {
+          "state": "Arkansas",
+          "score": 38
+        }
+      ],
+      "florida_score": 19,
+      "florida_rank": 38,
+      "top_related": [
+        {
+          "query": "edmunds",
+          "value": 100
+        }
+      ],
+      "rising_related": [
+        {
+          "query": "edmunds",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "keyword": "car dealerships west palm beach",
+      "geo": "US",
+      "trend_first_value": 0,
+      "trend_last_value": 11,
+      "trend_peak": 100,
+      "trend_avg": 4.0,
+      "trend_direction": "up",
+      "top_states": [
+        {
+          "state": "Florida",
+          "score": 100
+        },
+        {
+          "state": "New York",
+          "score": 17
+        },
+        {
+          "state": "Virginia",
+          "score": 3
+        }
+      ],
+      "florida_score": 100,
+      "florida_rank": 1
+    }
+  ],
+  "pairs": [
+    {
+      "label": "BHPH EN vs Used Cars ES",
+      "keywords": [
+        "buy here pay here",
+        "carros usados en venta"
+      ],
+      "geo": "US",
+      "buy here pay here": {
+        "avg": 59.5,
+        "peak": 100,
+        "last": 63
+      },
+      "carros usados en venta": {
+        "avg": 2.7,
+        "peak": 3,
+        "last": 2
+      }
+    },
+    {
+      "label": "Bad Credit EN vs ES",
+      "keywords": [
+        "bad credit car dealer",
+        "carros mal credito"
+      ],
+      "geo": "US",
+      "bad credit car dealer": {
+        "avg": 41.3,
+        "peak": 100,
+        "last": 54
+      },
+      "carros mal credito": {
+        "avg": 0.0,
+        "peak": 0,
+        "last": 0
+      }
+    },
+    {
+      "label": "Near-me EN vs ES",
+      "keywords": [
+        "used cars near me",
+        "carros usados cerca de mi"
+      ],
+      "geo": "US",
+      "used cars near me": {
+        "avg": 62.8,
+        "peak": 100,
+        "last": 71
+      },
+      "carros usados cerca de mi": {
+        "avg": 0.3,
+        "peak": 1,
+        "last": 0
+      }
+    }
+  ]
+}

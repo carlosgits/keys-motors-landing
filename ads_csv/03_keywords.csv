@@ -1,0 +1,62 @@
+﻿Campaign,Ad group,Keyword,Match type,Status
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here near me,Exact,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here dealerships near me,Exact,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here car dealer near me,Exact,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here lots near me,Exact,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here dealer near me,Phrase,Paused
+01 - BHPH English Near Me,BHPH Near Me,best buy here pay here near me,Phrase,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here car,Phrase,Paused
+01 - BHPH English Near Me,BHPH Near Me,buy here pay here auto sales,Phrase,Paused
+01 - BHPH English Near Me,Bad Credit Auto,bad credit car loan,Exact,Paused
+01 - BHPH English Near Me,Bad Credit Auto,bad credit car dealer near me,Exact,Paused
+01 - BHPH English Near Me,Bad Credit Auto,bad credit auto financing,Phrase,Paused
+01 - BHPH English Near Me,Bad Credit Auto,car dealers for bad credit,Phrase,Paused
+01 - BHPH English Near Me,Bad Credit Auto,bankruptcy car loan,Phrase,Paused
+01 - BHPH English Near Me,No Credit Check Cars,no credit check cars,Exact,Paused
+01 - BHPH English Near Me,No Credit Check Cars,no credit check car dealers,Exact,Paused
+01 - BHPH English Near Me,No Credit Check Cars,no credit car loan,Phrase,Paused
+01 - BHPH English Near Me,No Credit Check Cars,first time car buyer,Phrase,Paused
+01 - BHPH English Near Me,No Credit Check Cars,buy here pay here no credit check,Phrase,Paused
+01 - BHPH English Near Me,In House Financing,in house financing cars near me,Exact,Paused
+01 - BHPH English Near Me,In House Financing,in house auto financing,Phrase,Paused
+01 - BHPH English Near Me,In House Financing,we are the bank car dealer,Phrase,Paused
+01 - BHPH English Near Me,In House Financing,second chance auto financing,Phrase,Paused
+01 - BHPH English Near Me,In House Financing,guaranteed auto financing,Phrase,Paused
+02 - Local Florida Geo,WPB Car Dealers,car dealerships west palm beach,Exact,Paused
+02 - Local Florida Geo,WPB Car Dealers,car dealer west palm beach,Exact,Paused
+02 - Local Florida Geo,WPB Car Dealers,car dealerships in west palm beach fl,Phrase,Paused
+02 - Local Florida Geo,WPB Car Dealers,used car dealer west palm beach,Phrase,Paused
+02 - Local Florida Geo,WPB Car Dealers,auto dealers west palm beach,Phrase,Paused
+02 - Local Florida Geo,WPB Used Cars,used cars west palm beach,Exact,Paused
+02 - Local Florida Geo,WPB Used Cars,used cars west palm beach fl,Phrase,Paused
+02 - Local Florida Geo,WPB Used Cars,pre owned cars west palm beach,Phrase,Paused
+02 - Local Florida Geo,WPB Used Cars,cheap used cars west palm beach,Phrase,Paused
+03 - BHPH Spanish,Carros Usados WPB,carros usados west palm beach,Phrase,Paused
+03 - BHPH Spanish,Carros Usados WPB,venta de carros usados,Exact,Paused
+03 - BHPH Spanish,Carros Usados WPB,carros usados en venta,Exact,Paused
+03 - BHPH Spanish,Carros Usados WPB,carros usados en venta cerca de mi,Phrase,Paused
+03 - BHPH Spanish,Carros Usados WPB,venta carros usados west palm beach,Phrase,Paused
+03 - BHPH Spanish,Carros Usados WPB,concesionario carros usados,Phrase,Paused
+03 - BHPH Spanish,Carros Mal Credito,carros mal credito,Exact,Paused
+03 - BHPH Spanish,Carros Mal Credito,carros sin credito,Exact,Paused
+03 - BHPH Spanish,Carros Mal Credito,financiamiento carros mal credito,Phrase,Paused
+03 - BHPH Spanish,Carros Mal Credito,carros con itin,Phrase,Paused
+03 - BHPH Spanish,Carros Mal Credito,carros sin ssn,Phrase,Paused
+03 - BHPH Spanish,Carros Mal Credito,financiamiento propio carros,Phrase,Paused
+03 - BHPH Spanish,Carros Baratos,carros baratos,Phrase,Paused
+03 - BHPH Spanish,Carros Baratos,carros baratos usados,Phrase,Paused
+03 - BHPH Spanish,Carros Baratos,carros a buen precio,Phrase,Paused
+03 - BHPH Spanish,Carros Baratos,carros en venta baratos,Phrase,Paused
+04 - Trade-In,Sell My Car WPB,sell my car west palm beach,Phrase,Paused
+04 - Trade-In,Sell My Car WPB,sell my used car wpb,Phrase,Paused
+04 - Trade-In,Sell My Car WPB,vender mi carro west palm beach,Phrase,Paused
+04 - Trade-In,Sell My Car WPB,vender mi carro usado,Phrase,Paused
+04 - Trade-In,Sell My Car WPB,we buy any car west palm beach,Phrase,Paused
+04 - Trade-In,Trade In Value,trade in my car west palm beach,Phrase,Paused
+04 - Trade-In,Trade In Value,trade in car value florida,Phrase,Paused
+04 - Trade-In,Trade In Value,car trade in west palm beach,Phrase,Paused
+05 - Branded Defensive,Keys Motors Brand,keys motors,Exact,Paused
+05 - Branded Defensive,Keys Motors Brand,keys motors west palm beach,Exact,Paused
+05 - Branded Defensive,Keys Motors Brand,keys motors wpb,Phrase,Paused
+05 - Branded Defensive,Keys Motors Brand,key motors west palm beach,Phrase,Paused
+05 - Branded Defensive,Keys Motors Brand,keysmotors,Phrase,Paused
