@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#0B0F1A">
+<meta name="theme-color" content="#FBF8F2">
 <title>Keys Motors — Drive Today. We Are The Bank. | West Palm Beach FL</title>
 <meta name="description" content="Buy Here Pay Here in West Palm Beach. Bad credit, ITIN, no SSN — we finance everyone from $1,500 down. BBB A- · 9 years · Pre-approval in 2 minutes.">
 <meta property="og:title" content="Keys Motors — Drive Today. We Are The Bank.">
@@ -26,7 +26,6 @@
       "@type": ["AutoDealer", "LocalBusiness"],
       "@id": "https://carlosgits.github.io/keys-motors-landing/#dealer",
       "name": "Keys Motors",
-      "image": "https://carlosgits.github.io/keys-motors-landing/og.jpg",
       "telephone": "+1-561-653-1765",
       "priceRange": "$$",
       "address": {
@@ -47,12 +46,12 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need an SSN to get approved?", "acceptedAnswer": { "@type": "Answer", "text": "No. We accept ITIN — no Social Security Number required. Just bring a valid photo ID, proof of income, and proof of residence." }},
-        { "@type": "Question", "name": "What is the minimum down payment?", "acceptedAnswer": { "@type": "Answer", "text": "Down payments start at $1,500. The exact amount depends on the vehicle you choose and your income — we work with everyone." }},
-        { "@type": "Question", "name": "Can I trade in my current car?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We accept any trade-in regardless of condition or whether you still owe money on it. The value gets applied directly to your down payment." }},
-        { "@type": "Question", "name": "Do you report payments to credit bureaus?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We report your on-time payments to the major credit bureaus. After 12 months of payments, most customers qualify for traditional bank financing on their next vehicle." }},
-        { "@type": "Question", "name": "How fast can I drive away?", "acceptedAnswer": { "@type": "Answer", "text": "Same day. Pre-approval takes 2 minutes online. If you bring your documents to the lot, you can pick a car, sign, and drive home in a single visit." }},
-        { "@type": "Question", "name": "Do you speak Spanish?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Toda nuestra oficina habla español. Te atendemos en tu idioma — pregunta por cualquier especialista bilingüe." }}
+        { "@type": "Question", "name": "Do I need an SSN to get approved?", "acceptedAnswer": { "@type": "Answer", "text": "No. We accept ITIN — no Social Security Number required." }},
+        { "@type": "Question", "name": "What is the minimum down payment?", "acceptedAnswer": { "@type": "Answer", "text": "Down payments start at $1,500." }},
+        { "@type": "Question", "name": "Can I trade in my current car?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — any condition, even with an open loan." }},
+        { "@type": "Question", "name": "Do you report to credit bureaus?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — to all three majors: Experian, Equifax, TransUnion." }},
+        { "@type": "Question", "name": "How fast can I drive away?", "acceptedAnswer": { "@type": "Answer", "text": "Same day." }},
+        { "@type": "Question", "name": "Do you speak Spanish?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Toda nuestra oficina habla español." }}
       ]
     }
   ]
@@ -61,36 +60,37 @@
 
 <style>
 /* ─────────────────────────────────────────────
-   DESIGN TOKENS — Editorial Cinema × Urban Americana
+   DESIGN TOKENS — Light theme luxury showroom
    ───────────────────────────────────────────── */
 :root {
-  --onyx: #0B0F1A;
-  --midnight: #14192A;
-  --carbon: #1C2233;
-  --bone: #F4EFE6;
   --paper: #FBF8F2;
+  --bone: #F4EFE6;
+  --cream: #FFFCF6;
+  --warm-line: #E8E2D5;
   --ink: #14181F;
-  --slate: #4A5160;
-  --chrome: #B8BEC9;
+  --slate: #5A6172;
+  --chrome: #9BA1AC;
   --signal: #C8102E;
   --signal-deep: #8F0B20;
-  --bullion: #FFD700;
-  --bullion-soft: #E5C04A;
+  --bullion: #BF9B30;
+  --bullion-soft: #D4B564;
+  --onyx: #0B0F1A;
+  --midnight: #14192A;
 
   --font-display: "Archivo Black", "Archivo", system-ui, sans-serif;
   --font-body: "Archivo", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  --shadow-lift: 0 30px 60px -20px rgba(11,15,26,.35), 0 18px 36px -12px rgba(11,15,26,.25);
-  --shadow-card: 0 1px 0 rgba(255,255,255,.6) inset, 0 20px 40px -12px rgba(11,15,26,.18);
-  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.5'/></svg>");
+  --shadow-card: 0 1px 0 rgba(255,255,255,.8) inset, 0 20px 50px -16px rgba(20,24,31,.12);
+  --shadow-lift: 0 30px 80px -20px rgba(20,24,31,.2), 0 16px 32px -8px rgba(20,24,31,.1);
+  --shadow-car: 0 60px 80px -20px rgba(20,24,31,.45);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background: var(--bone);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
   font-weight: 400;
@@ -109,10 +109,8 @@ a { color: inherit; text-decoration: none; }
 .lang-es { display: none; }
 [data-lang="es"] .lang-en { display: none; }
 [data-lang="es"] .lang-es { display: inline; }
-[data-lang="es"] .lang-es-block { display: block; }
 
-/* Reusable */
-.wrap { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 28px; }
+.wrap { width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 32px; }
 .mono { font-family: var(--font-mono); }
 .label-mono {
   font-family: var(--font-mono);
@@ -120,87 +118,84 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 500;
-  color: var(--chrome);
+  color: var(--slate);
 }
-.signal { color: var(--signal); }
-.bullion { color: var(--bullion); }
 
-/* Section numbering — magazine markers */
 .section-marker {
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 0.22em;
-  color: var(--chrome);
+  color: var(--slate);
   text-transform: uppercase;
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 .section-marker::before {
   content: "";
   width: 36px;
   height: 1px;
-  background: currentColor;
-  opacity: 0.6;
+  background: var(--ink);
+  opacity: 0.4;
 }
 
-/* Display headlines */
 h1, h2, h3 {
   font-family: var(--font-display);
   font-weight: 900;
   letter-spacing: -0.035em;
   line-height: 0.94;
   margin: 0;
+  color: var(--ink);
 }
-h1 { font-size: clamp(40px, 5.8vw, 84px); line-height: 0.94; }
-h2 { font-size: clamp(34px, 4.8vw, 64px); line-height: 0.98; }
+h1 { font-size: clamp(38px, 5vw, 72px); line-height: 0.95; }
+h2 { font-size: clamp(32px, 4.4vw, 60px); line-height: 0.98; }
 h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 
 .lede {
   font-family: var(--font-body);
   font-weight: 400;
-  font-size: clamp(17px, 1.65vw, 21px);
+  font-size: clamp(17px, 1.55vw, 21px);
   line-height: 1.55;
   color: var(--slate);
 }
 
 /* ─────────────────────────────────────────────
-   STICKY NAV
+   STICKY NAV — Light theme
    ───────────────────────────────────────────── */
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  padding: 18px 0;
-  transition: background .35s ease, backdrop-filter .35s ease, padding .35s ease;
+  padding: 20px 0;
+  transition: background .35s ease, backdrop-filter .35s ease, padding .35s ease, box-shadow .35s ease;
 }
 .nav.scrolled {
-  background: rgba(11,15,26,.78);
+  background: rgba(251,248,242,0.88);
   backdrop-filter: blur(20px) saturate(140%);
   -webkit-backdrop-filter: blur(20px) saturate(140%);
-  padding: 12px 0;
+  padding: 14px 0;
+  box-shadow: 0 1px 0 rgba(20,24,31,0.06);
 }
 .nav-inner {
   display: flex; align-items: center; justify-content: space-between;
-  color: var(--bone);
+  color: var(--ink);
 }
 .brand {
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 22px;
-  letter-spacing: -0.02em;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -0.04em;
   display: flex; align-items: center; gap: 10px;
+  color: var(--ink);
 }
 .brand .k {
   display: inline-flex; align-items: center; justify-content: center;
   width: 32px; height: 32px;
-  background: var(--signal); color: var(--bone);
-  border-radius: 4px;
+  background: var(--signal); color: var(--paper);
+  border-radius: 6px;
   font-family: var(--font-display);
-  font-weight: 700;
-  transform: rotate(-3deg);
+  font-weight: 900;
 }
-.brand-name { color: inherit; }
-.brand-name em { color: var(--bullion); font-style: normal; }
+.brand-name em { color: var(--signal); font-style: normal; }
 
 .nav-actions { display: flex; align-items: center; gap: 18px; }
 .lang-toggle {
@@ -209,227 +204,237 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   background: transparent;
-  border: 1px solid rgba(255,255,255,.2);
-  color: var(--bone);
+  border: 1px solid rgba(20,24,31,0.2);
+  color: var(--ink);
   padding: 8px 14px;
   border-radius: 999px;
   transition: all .25s ease;
 }
-.lang-toggle:hover { border-color: var(--bullion); color: var(--bullion); }
+.lang-toggle:hover { border-color: var(--signal); color: var(--signal); }
 .nav-call {
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: 0.05em;
-  color: var(--bone);
+  color: var(--ink);
   display: flex; align-items: center; gap: 8px;
   transition: color .2s;
+  font-weight: 500;
 }
-.nav-call:hover { color: var(--bullion); }
-.nav-call .dot { width: 6px; height: 6px; background: #4ade80; border-radius: 50%; box-shadow: 0 0 12px #4ade80; animation: pulseDot 2.4s ease-in-out infinite; }
+.nav-call:hover { color: var(--signal); }
+.nav-call .dot { width: 6px; height: 6px; background: #16a34a; border-radius: 50%; box-shadow: 0 0 12px #16a34a; animation: pulseDot 2.4s ease-in-out infinite; }
 @keyframes pulseDot { 0%,100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.3); } }
 
 /* ─────────────────────────────────────────────
-   HERO — Editorial dark cinema
+   HERO — Showroom luxury layout
    ───────────────────────────────────────────── */
 .hero {
   position: relative;
-  background: var(--onyx);
-  color: var(--bone);
-  min-height: 100vh;
-  padding: 140px 0 100px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 110px 0 50px;
   overflow: hidden;
   isolation: isolate;
+  min-height: 100vh;
 }
 .hero::before {
   content: "";
-  position: absolute; inset: 0;
-  background:
-    radial-gradient(ellipse at 80% 20%, rgba(200,16,46,.18), transparent 60%),
-    radial-gradient(ellipse at 20% 80%, rgba(255,215,0,.08), transparent 55%),
-    linear-gradient(180deg, transparent 0%, rgba(11,15,26,.6) 100%);
-  z-index: -2;
-}
-
-/* HERO VEHICLE — silhouette background with dramatic shadow */
-.hero-vehicle {
   position: absolute;
-  right: -8%;
-  bottom: -3%;
-  width: 70%;
-  height: 78%;
-  background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=85');
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: contain;
-  opacity: 0.32;
-  filter: saturate(0.6) contrast(1.15) drop-shadow(0 60px 100px rgba(0,0,0,.9));
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px; height: 1000px;
+  background: radial-gradient(circle, rgba(191,155,48,.05) 0%, transparent 60%);
+  z-index: 0;
   pointer-events: none;
-  z-index: -1;
-  mix-blend-mode: lighten;
-}
-.hero-vehicle::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: linear-gradient(to right,
-    var(--onyx) 0%,
-    rgba(11,15,26,.92) 25%,
-    rgba(11,15,26,.45) 55%,
-    rgba(11,15,26,.15) 100%);
-}
-@media (max-width: 900px) {
-  .hero-vehicle { opacity: 0.18; right: -25%; width: 110%; bottom: 5%; }
-}
-.hero::after {
-  content: "";
-  position: absolute; inset: 0;
-  background-image: var(--grain);
-  opacity: 0.18;
-  mix-blend-mode: overlay;
-  pointer-events: none;
-  z-index: -1;
-}
-/* Subtle horizontal grid lines for editorial texture */
-.hero .grid-lines {
-  position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(184,190,201,.05) 1px, transparent 1px);
-  background-size: 100% 88px;
-  pointer-events: none;
-  z-index: -1;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 80px;
-  align-items: end;
-}
-@media (max-width: 960px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 56px; }
+/* Outlined background word */
+.hero-bigword {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-size: clamp(140px, 22vw, 280px);
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(20,24,31,0.09);
+  letter-spacing: -0.05em;
+  line-height: 0.75;
+  z-index: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  user-select: none;
 }
 
-.eyebrow {
-  display: inline-flex; align-items: center; gap: 14px;
+.hero-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+/* Top row: brand + eyebrow */
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.hero-brand-block {
+  flex: 1;
+  min-width: 240px;
+}
+.hero-brand-title {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero-brand-title .info-i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px; height: 18px;
+  border: 1.5px solid var(--slate);
+  border-radius: 50%;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--slate);
+  font-style: italic;
+}
+.hero-brand-sub {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--slate);
+  margin-top: 4px;
+  font-weight: 400;
+}
+.hero-eyebrow-spec {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--bullion);
+  color: var(--slate);
+  padding-top: 12px;
+}
+
+/* Main hero grid */
+.hero-main {
+  display: grid;
+  grid-template-columns: 160px 1fr 380px;
+  gap: 32px;
+  align-items: center;
   margin-bottom: 40px;
 }
-.eyebrow .bar { width: 28px; height: 1px; background: var(--bullion); }
-.eyebrow .sep { color: rgba(255,215,0,.4); }
-
-.h1-stage h1 {
-  color: var(--bone);
-  position: relative;
+@media (max-width: 1100px) {
+  .hero-main { grid-template-columns: 140px 1fr 340px; gap: 24px; }
+  .hero-bigword { font-size: clamp(120px, 18vw, 200px); }
 }
-.h1-stage h1 .word { display: inline-block; overflow: hidden; vertical-align: bottom; }
-.h1-stage h1 .word > span { display: inline-block; will-change: transform; }
-.h1-stage h1 em {
-  font-style: normal;
-  color: var(--bullion);
-}
-.h1-stage h1 .signal-word { color: var(--signal); }
-
-.hero-sub {
-  margin-top: 32px;
-  font-family: var(--font-body);
-  font-size: clamp(17px, 1.55vw, 21px);
-  line-height: 1.55;
-  color: rgba(244,239,230,.82);
-  font-weight: 400;
-  max-width: 580px;
+@media (max-width: 900px) {
+  .hero-main {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .hero-bigword { font-size: clamp(80px, 24vw, 180px); top: 130px; }
 }
 
-.hero-cta-row {
-  margin-top: 44px;
-  display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
+/* Left tabs */
+.hero-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-
-.btn {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 18px 28px;
-  font-family: var(--font-body);
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  border-radius: 6px;
-  border: none;
-  transition: all .25s ease;
-  text-decoration: none;
-}
-.btn-primary {
-  background: var(--signal);
-  color: var(--bone);
-  box-shadow: 0 12px 32px -8px rgba(200,16,46,.5), inset 0 1px 0 rgba(255,255,255,.18);
-}
-.btn-primary:hover { background: var(--signal-deep); transform: translateY(-2px); box-shadow: 0 18px 40px -10px rgba(200,16,46,.6); }
-.btn-primary .arrow { transition: transform .25s; }
-.btn-primary:hover .arrow { transform: translateX(4px); }
-
-.btn-ghost {
+.tab {
   background: transparent;
-  color: var(--bone);
-  border: 1px solid rgba(244,239,230,.25);
+  border: 1px solid rgba(20,24,31,0.15);
+  border-radius: 999px;
+  padding: 11px 18px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  letter-spacing: 0;
 }
-.btn-ghost:hover { border-color: var(--bullion); color: var(--bullion); }
-
-.btn-gold {
-  background: var(--bullion);
-  color: var(--onyx);
-  box-shadow: 0 12px 32px -8px rgba(255,215,0,.45), inset 0 1px 0 rgba(255,255,255,.4);
+.tab:hover {
+  border-color: var(--ink);
+  background: rgba(20,24,31,0.03);
 }
-.btn-gold:hover { background: var(--bullion-soft); transform: translateY(-2px); }
-
-/* Trust badge row */
-.trust-row {
-  margin-top: 64px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  padding-top: 32px;
-  border-top: 1px solid rgba(184,190,201,.12);
+.tab.active {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+  font-weight: 600;
 }
-@media (max-width: 640px) { .trust-row { grid-template-columns: repeat(2, 1fr); } }
-.trust-badge {
-  display: flex; flex-direction: column; gap: 6px;
-}
-.trust-badge .num {
-  font-family: var(--font-display);
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1;
-  color: var(--bullion);
-}
-.trust-badge .num small { font-size: 18px; color: var(--chrome); margin-left: 2px; }
-.trust-badge .lbl {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--chrome);
+@media (max-width: 900px) {
+  .hero-tabs {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .hero-tabs::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; }
 }
 
-/* Hero right — 3-step form card */
+/* Center car stage */
+.hero-car-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+}
+.hero-car-img {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 50px 50px rgba(20,24,31,0.35));
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+.hero-car-img.swapping { opacity: 0; transform: translateY(6px); }
+@media (max-width: 900px) {
+  .hero-car-stage { min-height: 280px; }
+  .hero-car-img { max-width: 100%; }
+}
+
+/* Right form column */
+.hero-form-col {
+  position: relative;
+  z-index: 3;
+}
+
+/* ─────────────────────────────────────────────
+   FORM CARD
+   ───────────────────────────────────────────── */
 .form-card {
-  background: var(--paper);
+  background: var(--cream);
   color: var(--ink);
   border-radius: 14px;
-  padding: 36px;
+  padding: 28px;
   box-shadow: var(--shadow-lift);
   position: relative;
   overflow: hidden;
+  border: 1px solid var(--warm-line);
 }
 .form-card::before {
   content: "";
-  position: absolute; top: 0; left: 0; right: 0; height: 4px;
-  background: linear-gradient(90deg, var(--signal) 0%, var(--signal) var(--progress, 33%), rgba(11,15,26,.08) var(--progress, 33%), rgba(11,15,26,.08) 100%);
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--signal) 0%, var(--signal) var(--progress, 33%), rgba(20,24,31,.08) var(--progress, 33%), rgba(20,24,31,.08) 100%);
   transition: --progress .4s ease;
 }
 .form-card .form-marker {
   display: flex; justify-content: space-between; align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 .form-card .step-counter {
   font-family: var(--font-mono);
@@ -441,16 +446,17 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 .form-card .step-counter .current { color: var(--signal); font-weight: 600; }
 .form-card .form-title {
   font-family: var(--font-display);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 1.15;
-  letter-spacing: -0.025em;
-  margin-bottom: 8px;
+  letter-spacing: -0.03em;
+  margin-bottom: 6px;
+  color: var(--ink);
 }
 .form-card .form-sub {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--slate);
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .step { display: none; animation: stepIn .4s cubic-bezier(.2,.8,.2,1); }
@@ -460,56 +466,55 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 .choice-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 .choice {
-  background: var(--bone);
+  background: var(--paper);
   border: 1px solid rgba(20,24,31,.1);
   border-radius: 8px;
-  padding: 16px 14px;
+  padding: 12px 12px;
   text-align: left;
   transition: all .2s ease;
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink);
-  display: flex; align-items: center; gap: 10px;
+  display: flex; align-items: center; gap: 8px;
   position: relative;
 }
-.choice:hover { border-color: var(--signal); background: var(--paper); transform: translateY(-1px); }
+.choice:hover { border-color: var(--signal); background: white; transform: translateY(-1px); }
 .choice.selected { border-color: var(--signal); background: rgba(200,16,46,.05); box-shadow: 0 0 0 3px rgba(200,16,46,.08); }
-.choice .glyph { font-size: 18px; line-height: 1; }
-.choice .sub { display: block; font-size: 11px; color: var(--slate); font-weight: 400; margin-top: 2px; font-family: var(--font-mono); letter-spacing: 0.05em; }
+.choice .glyph { font-size: 16px; line-height: 1; }
+.choice .sub { display: block; font-size: 10px; color: var(--slate); font-weight: 400; margin-top: 2px; font-family: var(--font-mono); letter-spacing: 0.05em; }
 
-.text-input, .text-input-group input {
+.text-input, .input-row input {
   width: 100%;
-  background: var(--bone);
+  background: var(--paper);
   border: 1px solid rgba(20,24,31,.12);
   border-radius: 8px;
-  padding: 14px 16px;
+  padding: 12px 14px;
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 14px;
   color: var(--ink);
   transition: all .2s;
   font-weight: 400;
 }
-.text-input:focus, .text-input-group input:focus { outline: none; border-color: var(--signal); box-shadow: 0 0 0 4px rgba(200,16,46,.08); }
-.text-input::placeholder { color: var(--slate); opacity: 0.6; }
+.text-input:focus, .input-row input:focus { outline: none; border-color: var(--signal); box-shadow: 0 0 0 4px rgba(200,16,46,.08); }
+.text-input::placeholder, .input-row input::placeholder { color: var(--slate); opacity: 0.6; }
 
-.input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
-.input-row > * { margin-bottom: 0 !important; }
-.input-stack > .text-input { margin-bottom: 10px; }
+.input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+.input-stack > .text-input { margin-bottom: 8px; }
 
 .step-nav {
   display: flex; justify-content: space-between; align-items: center;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 .step-back {
   background: transparent;
   border: none;
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--slate);
@@ -520,12 +525,12 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 .step-back:disabled { opacity: 0.3; cursor: not-allowed; }
 .step-next, .step-submit {
   background: var(--ink);
-  color: var(--bone);
+  color: var(--paper);
   border: none;
-  padding: 14px 24px;
+  padding: 12px 20px;
   border-radius: 6px;
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   display: inline-flex; align-items: center; gap: 8px;
   transition: all .2s;
@@ -536,15 +541,16 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 .step-submit:hover { background: var(--signal-deep); }
 
 .form-microcopy {
-  margin-top: 16px;
+  margin-top: 14px;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 0.05em;
   color: var(--slate);
   display: flex; align-items: center; gap: 8px;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.form-microcopy .check { color: #4ade80; font-weight: 600; }
+.form-microcopy .check { color: #16a34a; font-weight: 600; }
 
 .success-state {
   display: none;
@@ -553,83 +559,151 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 }
 .success-state.show { display: block; animation: stepIn .5s ease; }
 .success-state .check-circle {
-  width: 64px; height: 64px;
-  margin: 0 auto 20px;
-  background: #4ade80;
+  width: 60px; height: 60px;
+  margin: 0 auto 16px;
+  background: #16a34a;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   color: white;
-  font-size: 32px;
-  box-shadow: 0 0 0 8px rgba(74,222,128,.12);
+  font-size: 28px;
+  box-shadow: 0 0 0 8px rgba(22,163,74,.12);
 }
-.success-state h3 { font-size: 26px; margin-bottom: 8px; }
-.success-state p { color: var(--slate); margin-bottom: 18px; font-size: 14px; }
+.success-state h3 { font-size: 22px; margin-bottom: 6px; }
+.success-state p { color: var(--slate); margin-bottom: 16px; font-size: 13px; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 22px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-radius: 6px;
+  border: none;
+  transition: all .25s ease;
+  text-decoration: none;
+}
+.btn-primary {
+  background: var(--signal);
+  color: var(--paper);
+  box-shadow: 0 12px 28px -8px rgba(200,16,46,.4);
+}
+.btn-primary:hover { background: var(--signal-deep); transform: translateY(-2px); }
+.btn-ink {
+  background: var(--ink);
+  color: var(--paper);
+}
+.btn-ink:hover { background: var(--signal); transform: translateY(-2px); }
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid rgba(20,24,31,0.2);
+}
+.btn-ghost:hover { border-color: var(--ink); background: rgba(20,24,31,0.03); }
 
 /* ─────────────────────────────────────────────
-   WHY KEYS MOTORS — 3-col on bone
+   HERO SPEC STRIP — Bottom row of stats
+   ───────────────────────────────────────────── */
+.hero-spec-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  margin-top: 30px;
+}
+@media (max-width: 900px) {
+  .hero-spec-strip { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}
+.spec-card {
+  background: var(--cream);
+  border: 1px solid var(--warm-line);
+  border-radius: 12px;
+  padding: 22px;
+  position: relative;
+}
+.spec-card .icon {
+  position: absolute;
+  top: 22px; right: 22px;
+  color: var(--slate);
+  opacity: 0.55;
+}
+.spec-lbl {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--ink);
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+.spec-val {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 900;
+  line-height: 1.05;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+}
+.spec-val small {
+  font-size: 14px;
+  color: var(--slate);
+  font-weight: 400;
+  font-family: var(--font-body);
+}
+.spec-sub {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--slate);
+  margin-top: 4px;
+}
+
+/* ─────────────────────────────────────────────
+   WHY KEYS MOTORS — bone bg
    ───────────────────────────────────────────── */
 .why {
   background: var(--bone);
-  padding: 140px 0;
-  position: relative;
+  padding: 120px 0;
 }
-.why .section-marker { color: var(--slate); }
 .why-grid {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 80px;
   align-items: start;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 @media (max-width: 900px) { .why-grid { grid-template-columns: 1fr; gap: 32px; } }
-.why h2 { color: var(--ink); }
-.why h2 em { color: var(--signal); }
+.why h2 em { color: var(--signal); font-style: normal; }
 .why .lede { padding-top: 16px; max-width: 540px; }
 
 .why-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 36px;
-  border-top: 1px solid rgba(20,24,31,.12);
+  border-top: 1px solid var(--warm-line);
   padding-top: 48px;
 }
 @media (max-width: 760px) { .why-cols { grid-template-columns: 1fr; } }
 .why-col h3 {
-  font-family: var(--font-display);
   margin-bottom: 16px;
-  display: flex; align-items: baseline; gap: 12px;
 }
-.why-col h3 em { color: var(--signal); }
+.why-col h3 em { color: var(--signal); font-style: normal; }
 .why-col .num-tag {
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 0.18em;
-  color: var(--chrome);
+  color: var(--slate);
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .why-col p { color: var(--slate); font-size: 16px; line-height: 1.65; max-width: 32ch; }
 .why-col .accent-line { width: 28px; height: 2px; background: var(--bullion); margin-top: 20px; }
 
 /* ─────────────────────────────────────────────
-   INVENTORY — 3 cards dark
+   INVENTORY — cream bg light theme
    ───────────────────────────────────────────── */
 .inventory {
-  background: var(--midnight);
-  color: var(--bone);
-  padding: 140px 0;
-  position: relative;
-  isolation: isolate;
-}
-.inventory::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: var(--grain);
-  opacity: 0.06;
-  pointer-events: none;
-  mix-blend-mode: overlay;
+  background: var(--cream);
+  padding: 120px 0;
 }
 .inventory-head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 56px; flex-wrap: wrap; gap: 24px; }
-.inventory h2 em { color: var(--bullion); }
+.inventory h2 em { color: var(--signal); font-style: normal; }
 
 .inv-grid {
   display: grid;
@@ -638,20 +712,21 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 }
 @media (max-width: 900px) { .inv-grid { grid-template-columns: 1fr; } }
 .inv-card {
-  background: var(--carbon);
-  border: 1px solid rgba(184,190,201,.1);
+  background: white;
+  border: 1px solid var(--warm-line);
   border-radius: 12px;
   overflow: hidden;
-  transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .25s;
+  transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .25s, box-shadow .35s;
   will-change: transform;
   position: relative;
+  box-shadow: 0 1px 0 rgba(255,255,255,.8) inset, 0 8px 24px -8px rgba(20,24,31,.08);
 }
-.inv-card:hover { border-color: var(--bullion); transform: translateY(-6px); }
+.inv-card:hover { border-color: var(--signal); transform: translateY(-6px); box-shadow: 0 24px 40px -12px rgba(20,24,31,.15); }
 .inv-card .photo {
   aspect-ratio: 16/10;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #2a3142 0%, #14192a 100%);
+  background: linear-gradient(135deg, var(--bone) 0%, var(--warm-line) 100%);
 }
 .inv-card .photo img {
   width: 100%; height: 100%;
@@ -660,16 +735,10 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
   filter: saturate(0.95) contrast(1.02);
 }
 .inv-card:hover .photo img { transform: scale(1.06); }
-.inv-card .photo::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(11,15,26,.55) 100%);
-  pointer-events: none;
-}
 .inv-card .tag {
   position: absolute; top: 16px; left: 16px;
   background: var(--signal);
-  color: var(--bone);
+  color: var(--paper);
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.16em;
@@ -677,54 +746,62 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
   padding: 6px 10px;
   border-radius: 4px;
   font-weight: 600;
+  z-index: 2;
 }
 .inv-card .meta { padding: 24px; }
 .inv-card .model {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  margin-bottom: 8px;
-  color: var(--bone);
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 6px;
+  color: var(--ink);
 }
 .inv-card .specs {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
-  color: var(--chrome);
+  color: var(--slate);
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.inv-card .price-row { display: flex; justify-content: space-between; align-items: baseline; padding-top: 16px; border-top: 1px solid rgba(184,190,201,.1); }
-.inv-card .price-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.16em; color: var(--chrome); text-transform: uppercase; }
+.inv-card .price-row { display: flex; justify-content: space-between; align-items: baseline; padding-top: 16px; border-top: 1px solid var(--warm-line); }
+.inv-card .price-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.16em; color: var(--slate); text-transform: uppercase; }
 .inv-card .price {
   font-family: var(--font-display);
-  font-size: 28px;
-  font-weight: 500;
-  color: var(--bullion);
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--signal);
+  letter-spacing: -0.03em;
 }
-.inv-card .price small { font-size: 14px; color: var(--chrome); }
+.inv-card .price small { font-size: 14px; color: var(--slate); font-weight: 400; }
+.inv-card .down {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+}
 .inv-card .card-cta {
   display: block;
   text-align: center;
-  margin: 20px 24px 24px;
+  margin: 18px 24px 24px;
   padding: 12px;
-  background: transparent;
-  color: var(--bone);
-  border: 1px solid rgba(244,239,230,.2);
+  background: var(--ink);
+  color: var(--paper);
   border-radius: 6px;
   font-size: 13px;
   font-weight: 500;
   transition: all .2s;
 }
-.inv-card .card-cta:hover { background: var(--bullion); color: var(--onyx); border-color: var(--bullion); }
+.inv-card .card-cta:hover { background: var(--signal); }
 
 /* ─────────────────────────────────────────────
-   PAYMENT ESTIMATOR — Interactive sliders
+   PAYMENT ESTIMATOR — bone bg
    ───────────────────────────────────────────── */
 .estimator {
   background: var(--bone);
-  padding: 140px 0;
+  padding: 120px 0;
 }
 .est-grid {
   display: grid;
@@ -733,20 +810,20 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
   align-items: center;
 }
 @media (max-width: 900px) { .est-grid { grid-template-columns: 1fr; gap: 48px; } }
-.estimator h2 em { color: var(--signal); }
+.estimator h2 em { color: var(--signal); font-style: normal; }
 .est-panel {
-  background: var(--paper);
+  background: var(--cream);
   border-radius: 14px;
   padding: 48px;
   box-shadow: var(--shadow-card);
-  border: 1px solid rgba(20,24,31,.06);
+  border: 1px solid var(--warm-line);
 }
 .est-display {
   font-family: var(--font-display);
-  font-size: clamp(36px, 4.5vw, 56px);
-  font-weight: 400;
+  font-size: clamp(28px, 3.4vw, 44px);
+  font-weight: 900;
   line-height: 1.05;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.035em;
   margin-bottom: 6px;
   color: var(--ink);
   min-height: 1.2em;
@@ -765,7 +842,7 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-.est-payment-line .amt { color: var(--ink); font-weight: 600; font-size: 16px; }
+.est-payment-line .amt { color: var(--ink); font-weight: 600; font-size: 15px; }
 
 .slider-block { margin-bottom: 36px; }
 .slider-block:last-of-type { margin-bottom: 32px; }
@@ -782,9 +859,10 @@ h3 { font-size: clamp(20px, 2.2vw, 28px); line-height: 1.12; }
 }
 .slider-label .val {
   font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 900;
   color: var(--ink);
+  letter-spacing: -0.03em;
 }
 input[type="range"].slider {
   width: 100%;
@@ -804,10 +882,10 @@ input[type="range"].slider::-webkit-slider-thumb {
   appearance: none;
   width: 22px; height: 22px;
   background: var(--ink);
-  border: 3px solid var(--bone);
+  border: 3px solid var(--paper);
   border-radius: 50%;
   margin-top: -9px;
-  box-shadow: 0 4px 12px rgba(11,15,26,.3);
+  box-shadow: 0 4px 12px rgba(20,24,31,.3);
   transition: transform .15s;
 }
 input[type="range"].slider::-webkit-slider-thumb:hover { transform: scale(1.15); }
@@ -824,71 +902,61 @@ input[type="range"].slider::-moz-range-progress {
 input[type="range"].slider::-moz-range-thumb {
   width: 22px; height: 22px;
   background: var(--ink);
-  border: 3px solid var(--bone);
+  border: 3px solid var(--paper);
   border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(11,15,26,.3);
+  box-shadow: 0 4px 12px rgba(20,24,31,.3);
 }
 .slider-scale {
   display: flex; justify-content: space-between;
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.1em;
-  color: var(--chrome);
+  color: var(--slate);
   margin-top: 6px;
 }
 
 /* ─────────────────────────────────────────────
-   TESTIMONIALS — Editorial dark
+   TESTIMONIALS — paper bg light
    ───────────────────────────────────────────── */
 .testimonials {
-  background: var(--onyx);
-  color: var(--bone);
-  padding: 140px 0;
-  position: relative;
+  background: var(--paper);
+  padding: 120px 0;
 }
-.testimonials::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: var(--grain);
-  opacity: 0.08;
-  pointer-events: none;
-  mix-blend-mode: overlay;
-}
-.testimonials h2 em { color: var(--bullion); }
+.testimonials h2 em { color: var(--signal); font-style: normal; }
 .test-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  margin-top: 64px;
+  margin-top: 56px;
 }
 @media (max-width: 900px) { .test-grid { grid-template-columns: 1fr; } }
 .testimonial {
-  background: var(--midnight);
-  border: 1px solid rgba(184,190,201,.1);
+  background: var(--cream);
+  border: 1px solid var(--warm-line);
   border-radius: 12px;
   padding: 36px 32px;
   position: relative;
+  box-shadow: var(--shadow-card);
 }
 .testimonial .quote-mark {
   font-family: var(--font-display);
   font-size: 80px;
   line-height: 0.6;
   color: var(--bullion);
-  opacity: 0.4;
+  opacity: 0.35;
   position: absolute;
-  top: 24px;
+  top: 28px;
   right: 28px;
   font-style: normal;
   font-weight: 900;
 }
 .testimonial blockquote {
-  font-family: var(--font-display);
-  font-size: 19px;
-  line-height: 1.5;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
   font-weight: 400;
-  font-style: normal;
-  color: rgba(244,239,230,.92);
-  margin: 0 0 28px;
+  color: var(--ink);
+  margin: 0 0 24px;
   position: relative;
   z-index: 1;
 }
@@ -897,7 +965,7 @@ input[type="range"].slider::-moz-range-thumb {
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--bullion);
+  color: var(--slate);
   font-style: normal;
   display: flex; align-items: center; gap: 10px;
 }
@@ -908,16 +976,16 @@ input[type="range"].slider::-moz-range-thumb {
   display: flex; align-items: center; justify-content: center;
   font-family: var(--font-display);
   font-size: 14px;
-  color: var(--onyx);
-  font-weight: 600;
+  color: var(--paper);
+  font-weight: 900;
 }
 
 /* ─────────────────────────────────────────────
    TRADE-IN
    ───────────────────────────────────────────── */
 .tradein {
-  background: var(--paper);
-  padding: 140px 0;
+  background: var(--bone);
+  padding: 120px 0;
 }
 .trade-grid {
   display: grid;
@@ -926,13 +994,13 @@ input[type="range"].slider::-moz-range-thumb {
   align-items: center;
 }
 @media (max-width: 900px) { .trade-grid { grid-template-columns: 1fr; } }
-.tradein h2 em { color: var(--signal); }
+.tradein h2 em { color: var(--signal); font-style: normal; }
 .trade-feature {
-  background: var(--bone);
+  background: var(--cream);
   border-radius: 14px;
   padding: 40px;
   box-shadow: var(--shadow-card);
-  border: 1px solid rgba(20,24,31,.06);
+  border: 1px solid var(--warm-line);
 }
 .trade-feature .badge {
   display: inline-block;
@@ -940,20 +1008,21 @@ input[type="range"].slider::-moz-range-thumb {
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--bullion-soft);
-  background: rgba(229,192,74,.12);
+  color: var(--bullion);
+  background: rgba(191,155,48,.1);
   padding: 6px 12px;
   border-radius: 4px;
   margin-bottom: 24px;
 }
-.trade-feature h3 { font-size: 28px; margin-bottom: 16px; }
+.trade-feature h3 { font-size: 26px; margin-bottom: 16px; }
 .trade-feature ul { list-style: none; padding: 0; margin: 24px 0; }
 .trade-feature li {
   font-family: var(--font-body);
   display: flex; align-items: start; gap: 12px;
   padding: 12px 0;
-  border-top: 1px solid rgba(20,24,31,.08);
+  border-top: 1px solid var(--warm-line);
   font-size: 15px;
+  color: var(--ink);
 }
 .trade-feature li:first-child { border-top: none; }
 .trade-feature li::before {
@@ -967,19 +1036,8 @@ input[type="range"].slider::-moz-range-thumb {
    MAP + ADDRESS
    ───────────────────────────────────────────── */
 .location {
-  background: var(--midnight);
-  color: var(--bone);
-  padding: 140px 0;
-  position: relative;
-  isolation: isolate;
-}
-.location::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: var(--grain);
-  opacity: 0.08;
-  pointer-events: none;
-  mix-blend-mode: overlay;
+  background: var(--paper);
+  padding: 120px 0;
 }
 .loc-grid {
   display: grid;
@@ -988,32 +1046,32 @@ input[type="range"].slider::-moz-range-thumb {
   align-items: center;
 }
 @media (max-width: 900px) { .loc-grid { grid-template-columns: 1fr; } }
-.location h2 em { color: var(--bullion); }
-.loc-info { display: flex; flex-direction: column; gap: 28px; margin-top: 40px; }
+.location h2 em { color: var(--signal); font-style: normal; }
+.loc-info { display: flex; flex-direction: column; gap: 24px; margin-top: 36px; }
 .loc-block .lbl {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--chrome);
+  color: var(--slate);
   margin-bottom: 6px;
 }
 .loc-block .val {
   font-family: var(--font-display);
   font-size: 22px;
-  font-weight: 400;
-  color: var(--bone);
-  line-height: 1.4;
+  font-weight: 900;
+  color: var(--ink);
+  line-height: 1.3;
+  letter-spacing: -0.03em;
 }
-.loc-block .val a { color: var(--bullion); transition: color .2s; }
-.loc-block .val a:hover { color: var(--bone); }
+.loc-block .val a { color: var(--signal); transition: color .2s; }
+.loc-block .val a:hover { color: var(--signal-deep); }
 .map-frame {
   border-radius: 14px;
   overflow: hidden;
   height: 480px;
-  border: 1px solid rgba(184,190,201,.15);
-  box-shadow: var(--shadow-lift);
-  filter: grayscale(0.3) contrast(1.1);
+  border: 1px solid var(--warm-line);
+  box-shadow: var(--shadow-card);
 }
 .map-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
 
@@ -1022,30 +1080,31 @@ input[type="range"].slider::-moz-range-thumb {
    ───────────────────────────────────────────── */
 .faq {
   background: var(--bone);
-  padding: 140px 0;
+  padding: 120px 0;
 }
-.faq h2 em { color: var(--signal); }
-.faq-list { margin-top: 64px; max-width: 880px; }
+.faq h2 em { color: var(--signal); font-style: normal; }
+.faq-list { margin-top: 56px; max-width: 880px; }
 .faq-item {
-  border-top: 1px solid rgba(20,24,31,.14);
+  border-top: 1px solid var(--warm-line);
   padding: 8px 0;
 }
-.faq-item:last-child { border-bottom: 1px solid rgba(20,24,31,.14); }
+.faq-item:last-child { border-bottom: 1px solid var(--warm-line); }
 .faq-q {
   width: 100%;
   background: transparent;
   border: none;
-  padding: 28px 0;
+  padding: 26px 0;
   text-align: left;
   font-family: var(--font-display);
-  font-size: clamp(22px, 2.4vw, 30px);
-  font-weight: 500;
+  font-size: clamp(20px, 2.2vw, 26px);
+  font-weight: 900;
   color: var(--ink);
   cursor: pointer;
   display: flex; justify-content: space-between; align-items: center;
   gap: 24px;
   line-height: 1.2;
   transition: color .2s;
+  letter-spacing: -0.025em;
 }
 .faq-q:hover { color: var(--signal); }
 .faq-q .chevron {
@@ -1058,45 +1117,45 @@ input[type="range"].slider::-moz-range-thumb {
   font-size: 14px;
 }
 .faq-item.open .faq-q { color: var(--signal); }
-.faq-item.open .chevron { transform: rotate(45deg); background: var(--signal); color: var(--bone); border-color: var(--signal); }
+.faq-item.open .chevron { transform: rotate(45deg); background: var(--signal); color: var(--paper); border-color: var(--signal); }
 .faq-a {
   max-height: 0;
   overflow: hidden;
   transition: max-height .45s cubic-bezier(.2,.8,.2,1);
 }
 .faq-a-inner {
-  padding: 0 0 28px;
+  padding: 0 0 26px;
   color: var(--slate);
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.7;
   max-width: 70ch;
 }
 
 /* ─────────────────────────────────────────────
-   FOOTER
+   FOOTER (single dark bookend)
    ───────────────────────────────────────────── */
 .footer {
   background: var(--onyx);
-  color: var(--bone);
-  padding: 100px 0 40px;
-  position: relative;
+  color: var(--paper);
+  padding: 90px 0 36px;
 }
 .foot-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr 1fr;
   gap: 48px;
-  margin-bottom: 64px;
+  margin-bottom: 56px;
 }
 @media (max-width: 760px) { .foot-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
+.footer .brand { color: var(--paper); }
+.footer .brand-name em { color: var(--bullion); }
 .foot-tagline {
-  font-family: var(--font-display);
-  font-size: 22px;
+  font-family: var(--font-body);
+  font-size: 16px;
   font-weight: 400;
-  font-style: normal;
-  line-height: 1.4;
+  line-height: 1.5;
   color: rgba(244,239,230,.7);
-  margin-top: 20px;
-  max-width: 28ch;
+  margin-top: 16px;
+  max-width: 30ch;
 }
 .foot-col h4 {
   font-family: var(--font-mono);
@@ -1104,21 +1163,21 @@ input[type="range"].slider::-moz-range-thumb {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--chrome);
-  margin: 0 0 20px;
+  margin: 0 0 18px;
   font-weight: 500;
 }
 .foot-col ul { list-style: none; padding: 0; margin: 0; }
 .foot-col li { margin-bottom: 10px; font-size: 14px; color: rgba(244,239,230,.8); }
 .foot-col a:hover { color: var(--bullion); }
 .foot-bottom {
-  border-top: 1px solid rgba(184,190,201,.12);
+  border-top: 1px solid rgba(244,239,230,.1);
   padding-top: 24px;
   display: flex; justify-content: space-between; gap: 24px;
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: rgba(184,190,201,.6);
+  color: rgba(244,239,230,.5);
   flex-wrap: wrap;
 }
 
@@ -1129,13 +1188,13 @@ input[type="range"].slider::-moz-range-thumb {
   position: fixed;
   bottom: 16px; left: 16px; right: 16px;
   background: var(--signal);
-  color: var(--bone);
+  color: var(--paper);
   padding: 16px 20px;
   border-radius: 999px;
   display: none;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 16px 40px -8px rgba(200,16,46,.5), 0 8px 16px rgba(11,15,26,.2);
+  box-shadow: 0 16px 40px -8px rgba(200,16,46,.4), 0 8px 16px rgba(20,24,31,.15);
   z-index: 90;
   text-decoration: none;
   font-family: var(--font-body);
@@ -1145,7 +1204,7 @@ input[type="range"].slider::-moz-range-thumb {
 }
 @keyframes stickySlide { from { transform: translateY(120%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 .sticky-cta .pill {
-  background: var(--bone);
+  background: var(--paper);
   color: var(--signal);
   border-radius: 999px;
   padding: 6px 10px;
@@ -1168,16 +1227,13 @@ input[type="range"].slider::-moz-range-thumb {
   .reveal, .reveal-fast { opacity: 1 !important; transform: none !important; }
 }
 
-/* Tablet/mobile spacing */
 @media (max-width: 760px) {
   .wrap { padding: 0 20px; }
-  .hero { padding: 110px 0 80px; }
-  .why, .inventory, .estimator, .testimonials, .tradein, .location, .faq { padding: 90px 0; }
-  .form-card { padding: 28px 24px; }
-  .est-panel { padding: 32px 24px; }
-  .trade-feature { padding: 28px 24px; }
-  .trust-row { margin-top: 48px; padding-top: 24px; gap: 18px; }
-  .trust-badge .num { font-size: 30px; }
+  .hero { padding: 90px 0 50px; }
+  .why, .inventory, .estimator, .testimonials, .tradein, .location, .faq { padding: 80px 0; }
+  .form-card { padding: 24px 22px; }
+  .est-panel { padding: 28px 22px; }
+  .trade-feature { padding: 28px 22px; }
 }
 </style>
 </head>
@@ -1204,268 +1260,246 @@ input[type="range"].slider::-moz-range-thumb {
   </div>
 </nav>
 
-<!-- ─────────────────────────── HERO ─────────────────────────── -->
+<!-- ─────────────────────────── HERO (Showroom layout) ─────────────────────────── -->
 <header class="hero" id="top">
-  <div class="grid-lines"></div>
-  <div class="hero-vehicle" aria-hidden="true"></div>
-  <div class="wrap">
-    <div class="hero-grid">
+  <div class="hero-bigword">DRIVE</div>
+  <div class="wrap hero-wrap">
 
-      <div class="h1-stage">
-        <div class="eyebrow reveal-fast">
-          <span class="bar"></span>
-          <span>9 Years</span>
-          <span class="sep">·</span>
-          <span>BBB A-</span>
-          <span class="sep">·</span>
-          <span>West Palm Beach</span>
-        </div>
-
-        <h1 id="heroHeadline">
-          <span class="lang-en">
-            <span class="word"><span>Drive</span></span>
-            <span class="word"><span>today.</span></span><br>
-            <span class="word"><span>We</span></span>
-            <span class="word"><span>are</span></span>
-            <span class="word"><span>the</span></span>
-            <span class="word"><em><span>bank.</span></em></span>
-          </span>
-          <span class="lang-es">
-            <span class="word"><span>Sal</span></span>
-            <span class="word"><span>manejando</span></span>
-            <span class="word"><span>hoy.</span></span><br>
-            <span class="word"><span>Nosotros</span></span>
-            <span class="word"><span>somos</span></span>
-            <span class="word"><em><span>el banco.</span></em></span>
-          </span>
-        </h1>
-
-        <p class="hero-sub reveal">
-          <span class="lang-en">Bad credit. No credit. Bankruptcy. ITIN. We finance everyone — from <strong style="color:var(--bullion);font-style:normal;font-weight:500;">$1,500 down</strong>. Pre-approval in two minutes.</span>
-          <span class="lang-es">Mal crédito. Sin crédito. Bancarrota. ITIN. Te financiamos aunque te hayan dicho que no en todos lados — desde <strong style="color:var(--bullion);font-style:normal;font-weight:500;">$1,500 de inicial</strong>. Pre-aprobación en dos minutos.</span>
-        </p>
-
-        <div class="hero-cta-row reveal">
-          <a href="#form" class="btn btn-gold">
-            <span class="lang-en">Get pre-approved</span>
-            <span class="lang-es">Pre-aprueba ahora</span>
-            <span class="arrow">→</span>
-          </a>
-          <a href="tel:+15616531765" class="btn btn-ghost">
-            <span class="lang-en">Call (561) 653-1765</span>
-            <span class="lang-es">Llama (561) 653-1765</span>
-          </a>
-        </div>
-
-        <div class="trust-row reveal">
-          <div class="trust-badge">
-            <div class="num">A<small>-</small></div>
-            <div class="lbl"><span class="lang-en">BBB Accredited</span><span class="lang-es">BBB Acreditado</span></div>
-          </div>
-          <div class="trust-badge">
-            <div class="num">9<small>yr</small></div>
-            <div class="lbl"><span class="lang-en">Family-owned</span><span class="lang-es">Negocio familiar</span></div>
-          </div>
-          <div class="trust-badge">
-            <div class="num">$1.5<small>k</small></div>
-            <div class="lbl"><span class="lang-en">Down payment</span><span class="lang-es">Inicial desde</span></div>
-          </div>
-          <div class="trust-badge">
-            <div class="num">ITIN</div>
-            <div class="lbl"><span class="lang-en">No SSN required</span><span class="lang-es">Sin SSN</span></div>
-          </div>
+    <!-- Top row: brand + spec eyebrow -->
+    <div class="hero-top">
+      <div class="hero-brand-block">
+        <div class="hero-brand-title">KEYS MOTORS <span class="info-i">i</span></div>
+        <div class="hero-brand-sub">
+          <span class="lang-en">Drive Today, Approved Today</span>
+          <span class="lang-es">Manejas Hoy, Te Aprueban Hoy</span>
         </div>
       </div>
+      <div class="hero-eyebrow-spec">
+        <span class="lang-en">BHPH Specialist · West Palm Beach</span>
+        <span class="lang-es">BHPH Especialista · West Palm Beach</span>
+      </div>
+    </div>
 
-      <!-- ─── 3-STEP PRE-APPROVAL FORM ─── -->
-      <div class="form-card reveal" id="form">
-        <div class="form-marker">
-          <div class="step-counter">
-            <span class="lang-en">Step <span class="current" id="stepCurrent">1</span> of 3</span>
-            <span class="lang-es">Paso <span class="current">1</span> de 3</span>
+    <!-- Main grid: tabs / car / form -->
+    <div class="hero-main">
+
+      <aside class="hero-tabs" id="heroTabs">
+        <button class="tab active" data-vehicle="sedan">
+          <span class="lang-en">Sedans</span><span class="lang-es">Sedanes</span>
+        </button>
+        <button class="tab" data-vehicle="suv">SUVs</button>
+        <button class="tab" data-vehicle="truck">
+          <span class="lang-en">Trucks</span><span class="lang-es">Camionetas</span>
+        </button>
+        <button class="tab" data-vehicle="van">Vans</button>
+        <button class="tab" data-vehicle="trade-in">
+          <span class="lang-en">Trade-In</span><span class="lang-es">Cambio</span>
+        </button>
+        <button class="tab" data-vehicle="financing">
+          <span class="lang-en">Financing</span><span class="lang-es">Financiar</span>
+        </button>
+      </aside>
+
+      <div class="hero-car-stage">
+        <img class="hero-car-img" id="heroCarImg"
+             src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1600&q=85"
+             alt="Featured used vehicle from Keys Motors">
+      </div>
+
+      <div class="hero-form-col" id="form">
+        <div class="form-card">
+          <div class="form-marker">
+            <div class="step-counter">
+              <span class="lang-en">Step <span class="current" id="stepCurrent">1</span> of 3</span>
+              <span class="lang-es">Paso <span class="current">1</span> de 3</span>
+            </div>
+            <div class="label-mono" style="color:var(--signal)">2 min</div>
           </div>
-          <div class="label-mono" style="color:var(--signal)">2 min</div>
-        </div>
-        <h3 class="form-title">
-          <span class="lang-en">Pre-approval — no SSN, no credit pull.</span>
-          <span class="lang-es">Pre-aprobación — sin SSN, sin tocar tu crédito.</span>
-        </h3>
-        <p class="form-sub">
-          <span class="lang-en">Three quick questions. We call you within one business hour.</span>
-          <span class="lang-es">Tres preguntas rápidas. Te llamamos en una hora hábil.</span>
-        </p>
-
-        <form id="leadForm">
-          <!-- STEP 1: Vehicle -->
-          <div class="step active" data-step="1">
-            <div class="label-mono" style="margin-bottom:14px;color:var(--slate)">
-              <span class="lang-en">What are you driving?</span>
-              <span class="lang-es">¿Qué quieres manejar?</span>
-            </div>
-            <div class="choice-grid" id="vehicleChoices">
-              <button type="button" class="choice" data-value="sedan">
-                <span class="glyph">🚗</span>
-                <span>
-                  <span class="lang-en">Sedan</span><span class="lang-es">Sedán</span>
-                  <span class="sub">Civic · Corolla</span>
-                </span>
-              </button>
-              <button type="button" class="choice" data-value="suv">
-                <span class="glyph">🚙</span>
-                <span>
-                  <span class="lang-en">SUV</span><span class="lang-es">SUV</span>
-                  <span class="sub">Rogue · Equinox</span>
-                </span>
-              </button>
-              <button type="button" class="choice" data-value="truck">
-                <span class="glyph">🛻</span>
-                <span>
-                  <span class="lang-en">Truck</span><span class="lang-es">Camioneta</span>
-                  <span class="sub">F-150 · Silverado</span>
-                </span>
-              </button>
-              <button type="button" class="choice" data-value="van">
-                <span class="glyph">🚐</span>
-                <span>
-                  <span class="lang-en">Van / Minivan</span><span class="lang-es">Van</span>
-                  <span class="sub"><span class="lang-en">Family</span><span class="lang-es">Familia</span></span>
-                </span>
-              </button>
-              <button type="button" class="choice" data-value="any" style="grid-column:span 2">
-                <span class="glyph">✦</span>
-                <span>
-                  <span class="lang-en">Show me anything</span><span class="lang-es">Muéstrame cualquier opción</span>
-                  <span class="sub"><span class="lang-en">Surprise me</span><span class="lang-es">Sorpréndeme</span></span>
-                </span>
-              </button>
-            </div>
-            <input type="hidden" name="vehicleType" id="hVehicle" value="">
-            <div class="step-nav">
-              <span></span>
-              <button type="button" class="step-next" data-next-from="1" disabled>
-                <span class="lang-en">Continue</span><span class="lang-es">Continuar</span>
-                <span>→</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- STEP 2: Income -->
-          <div class="step" data-step="2">
-            <div class="label-mono" style="margin-bottom:14px;color:var(--slate)">
-              <span class="lang-en">Monthly take-home income</span>
-              <span class="lang-es">Ingreso mensual neto</span>
-            </div>
-            <div class="choice-grid" id="incomeChoices">
-              <button type="button" class="choice" data-value="under-1500" style="grid-column:span 2">
-                <span class="glyph">$</span>
-                <span>
-                  <span class="lang-en">Under $1,500</span><span class="lang-es">Menos de $1,500</span>
-                  <span class="sub"><span class="lang-en">We can still help</span><span class="lang-es">Aún podemos ayudarte</span></span>
-                </span>
-              </button>
-              <button type="button" class="choice" data-value="1500-2500">
-                <span class="glyph">$</span>
-                <span>$1,500 – $2,500</span>
-              </button>
-              <button type="button" class="choice" data-value="2500-4000">
-                <span class="glyph">$$</span>
-                <span>$2,500 – $4,000</span>
-              </button>
-              <button type="button" class="choice" data-value="4000-plus" style="grid-column:span 2">
-                <span class="glyph">$$$</span>
-                <span>
-                  <span>$4,000+</span>
-                  <span class="sub"><span class="lang-en">Best terms</span><span class="lang-es">Mejores términos</span></span>
-                </span>
-              </button>
-            </div>
-            <input type="hidden" name="monthlyIncome" id="hIncome" value="">
-            <div class="step-nav">
-              <button type="button" class="step-back" data-back-from="2">
-                ← <span class="lang-en">Back</span><span class="lang-es">Atrás</span>
-              </button>
-              <button type="button" class="step-next" data-next-from="2" disabled>
-                <span class="lang-en">Continue</span><span class="lang-es">Continuar</span>
-                <span>→</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- STEP 3: Contact + How soon -->
-          <div class="step" data-step="3">
-            <div class="label-mono" style="margin-bottom:14px;color:var(--slate)">
-              <span class="lang-en">Where do we send your approval?</span>
-              <span class="lang-es">¿A dónde te enviamos la aprobación?</span>
-            </div>
-            <div class="input-row">
-              <input class="text-input" type="text" name="firstName" required data-ph-en="First name" data-ph-es="Nombre">
-              <input class="text-input" type="text" name="lastName" required data-ph-en="Last name" data-ph-es="Apellido">
-            </div>
-            <div class="input-stack">
-              <input class="text-input" type="tel" name="phone" required data-ph-en="Phone (10 digits)" data-ph-es="Teléfono (10 dígitos)">
-              <input class="text-input" type="email" name="email" required data-ph-en="Email" data-ph-es="Correo electrónico">
-            </div>
-            <div class="label-mono" style="margin:18px 0 10px;color:var(--slate)">
-              <span class="lang-en">How soon?</span>
-              <span class="lang-es">¿Qué tan pronto?</span>
-            </div>
-            <div class="choice-grid" id="urgencyChoices">
-              <button type="button" class="choice" data-value="today">
-                <span class="glyph">⚡</span>
-                <span><span class="lang-en">Today</span><span class="lang-es">Hoy</span></span>
-              </button>
-              <button type="button" class="choice" data-value="this-week">
-                <span class="glyph">◷</span>
-                <span><span class="lang-en">This week</span><span class="lang-es">Esta semana</span></span>
-              </button>
-              <button type="button" class="choice" data-value="this-month">
-                <span class="glyph">▦</span>
-                <span><span class="lang-en">This month</span><span class="lang-es">Este mes</span></span>
-              </button>
-              <button type="button" class="choice" data-value="just-looking">
-                <span class="glyph">✺</span>
-                <span><span class="lang-en">Just looking</span><span class="lang-es">Solo viendo</span></span>
-              </button>
-            </div>
-            <input type="hidden" name="urgency" id="hUrgency" value="">
-            <div class="step-nav">
-              <button type="button" class="step-back" data-back-from="3">
-                ← <span class="lang-en">Back</span><span class="lang-es">Atrás</span>
-              </button>
-              <button type="submit" class="step-submit" id="submitBtn">
-                <span class="lang-en">See my options</span>
-                <span class="lang-es">Ver mis opciones</span>
-                <span>→</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="form-microcopy">
-            <span class="check">✓</span>
-            <span class="lang-en">Soft pull only · No SSN · 2 min</span>
-            <span class="lang-es">Solo consulta suave · Sin SSN · 2 min</span>
-          </div>
-        </form>
-
-        <!-- Success state -->
-        <div class="success-state" id="successState">
-          <div class="check-circle">✓</div>
-          <h3 style="font-family:var(--font-display);">
-            <span class="lang-en">You're pre-qualified.</span>
-            <span class="lang-es">Estás pre-aprobado.</span>
+          <h3 class="form-title">
+            <span class="lang-en">Pre-Approval — No SSN, No Credit Pull.</span>
+            <span class="lang-es">Pre-Aprobación — Sin SSN, Sin Tocar Crédito.</span>
           </h3>
-          <p>
-            <span class="lang-en">A specialist calls within one business hour.</span>
-            <span class="lang-es">Un especialista te llama en una hora hábil.</span>
+          <p class="form-sub">
+            <span class="lang-en">Three quick questions. We call you within one business hour.</span>
+            <span class="lang-es">Tres preguntas rápidas. Te llamamos en una hora hábil.</span>
           </p>
-          <a class="btn btn-primary" href="tel:+15616531765" style="margin-top:8px;">
-            <span class="lang-en">Or call now: (561) 653-1765</span>
-            <span class="lang-es">O llama ya: (561) 653-1765</span>
-          </a>
+
+          <form id="leadForm">
+            <!-- STEP 1: Vehicle -->
+            <div class="step active" data-step="1">
+              <div class="label-mono" style="margin-bottom:10px;color:var(--slate)">
+                <span class="lang-en">What are you driving?</span>
+                <span class="lang-es">¿Qué quieres manejar?</span>
+              </div>
+              <div class="choice-grid" id="vehicleChoices">
+                <button type="button" class="choice" data-value="sedan">
+                  <span class="glyph">🚗</span>
+                  <span>
+                    <span class="lang-en">Sedan</span><span class="lang-es">Sedán</span>
+                    <span class="sub">Civic · Corolla</span>
+                  </span>
+                </button>
+                <button type="button" class="choice" data-value="suv">
+                  <span class="glyph">🚙</span>
+                  <span>
+                    SUV
+                    <span class="sub">Rogue · Equinox</span>
+                  </span>
+                </button>
+                <button type="button" class="choice" data-value="truck">
+                  <span class="glyph">🛻</span>
+                  <span>
+                    <span class="lang-en">Truck</span><span class="lang-es">Camioneta</span>
+                    <span class="sub">F-150 · Silverado</span>
+                  </span>
+                </button>
+                <button type="button" class="choice" data-value="van">
+                  <span class="glyph">🚐</span>
+                  <span>
+                    Van
+                    <span class="sub"><span class="lang-en">Family</span><span class="lang-es">Familia</span></span>
+                  </span>
+                </button>
+                <button type="button" class="choice" data-value="any" style="grid-column:span 2">
+                  <span class="glyph">✦</span>
+                  <span><span class="lang-en">Show me anything</span><span class="lang-es">Muéstrame cualquier opción</span></span>
+                </button>
+              </div>
+              <input type="hidden" name="vehicleType" id="hVehicle" value="">
+              <div class="step-nav">
+                <span></span>
+                <button type="button" class="step-next" data-next-from="1" disabled>
+                  <span class="lang-en">Continue</span><span class="lang-es">Continuar</span>
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2: Income -->
+            <div class="step" data-step="2">
+              <div class="label-mono" style="margin-bottom:10px;color:var(--slate)">
+                <span class="lang-en">Monthly take-home income</span>
+                <span class="lang-es">Ingreso mensual neto</span>
+              </div>
+              <div class="choice-grid" id="incomeChoices">
+                <button type="button" class="choice" data-value="under-1500" style="grid-column:span 2">
+                  <span class="glyph">$</span>
+                  <span><span class="lang-en">Under $1,500</span><span class="lang-es">Menos de $1,500</span></span>
+                </button>
+                <button type="button" class="choice" data-value="1500-2500">
+                  <span class="glyph">$</span><span>$1,500 – $2,500</span>
+                </button>
+                <button type="button" class="choice" data-value="2500-4000">
+                  <span class="glyph">$$</span><span>$2,500 – $4,000</span>
+                </button>
+                <button type="button" class="choice" data-value="4000-plus" style="grid-column:span 2">
+                  <span class="glyph">$$$</span><span>$4,000+</span>
+                </button>
+              </div>
+              <input type="hidden" name="monthlyIncome" id="hIncome" value="">
+              <div class="step-nav">
+                <button type="button" class="step-back" data-back-from="2">
+                  ← <span class="lang-en">Back</span><span class="lang-es">Atrás</span>
+                </button>
+                <button type="button" class="step-next" data-next-from="2" disabled>
+                  <span class="lang-en">Continue</span><span class="lang-es">Continuar</span>
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3: Contact -->
+            <div class="step" data-step="3">
+              <div class="label-mono" style="margin-bottom:10px;color:var(--slate)">
+                <span class="lang-en">Where do we send your approval?</span>
+                <span class="lang-es">¿A dónde te enviamos la aprobación?</span>
+              </div>
+              <div class="input-row">
+                <input class="text-input" type="text" name="firstName" required data-ph-en="First name" data-ph-es="Nombre">
+                <input class="text-input" type="text" name="lastName" required data-ph-en="Last name" data-ph-es="Apellido">
+              </div>
+              <div class="input-stack">
+                <input class="text-input" type="tel" name="phone" required data-ph-en="Phone (10 digits)" data-ph-es="Teléfono (10 dígitos)">
+                <input class="text-input" type="email" name="email" required data-ph-en="Email" data-ph-es="Correo electrónico">
+              </div>
+              <div class="label-mono" style="margin:14px 0 8px;color:var(--slate)">
+                <span class="lang-en">How soon?</span><span class="lang-es">¿Qué tan pronto?</span>
+              </div>
+              <div class="choice-grid" id="urgencyChoices">
+                <button type="button" class="choice" data-value="today"><span class="glyph">⚡</span><span><span class="lang-en">Today</span><span class="lang-es">Hoy</span></span></button>
+                <button type="button" class="choice" data-value="this-week"><span class="glyph">◷</span><span><span class="lang-en">This week</span><span class="lang-es">Esta semana</span></span></button>
+                <button type="button" class="choice" data-value="this-month"><span class="glyph">▦</span><span><span class="lang-en">This month</span><span class="lang-es">Este mes</span></span></button>
+                <button type="button" class="choice" data-value="just-looking"><span class="glyph">✺</span><span><span class="lang-en">Just looking</span><span class="lang-es">Solo viendo</span></span></button>
+              </div>
+              <input type="hidden" name="urgency" id="hUrgency" value="">
+              <div class="step-nav">
+                <button type="button" class="step-back" data-back-from="3">
+                  ← <span class="lang-en">Back</span><span class="lang-es">Atrás</span>
+                </button>
+                <button type="submit" class="step-submit" id="submitBtn">
+                  <span class="lang-en">See my options</span>
+                  <span class="lang-es">Ver mis opciones</span>
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="form-microcopy">
+              <span class="check">✓</span>
+              <span class="lang-en">Soft pull · No SSN · 2 min</span>
+              <span class="lang-es">Consulta suave · Sin SSN · 2 min</span>
+            </div>
+          </form>
+
+          <div class="success-state" id="successState">
+            <div class="check-circle">✓</div>
+            <h3>
+              <span class="lang-en">You're pre-qualified.</span>
+              <span class="lang-es">Estás pre-aprobado.</span>
+            </h3>
+            <p>
+              <span class="lang-en">A specialist calls within one business hour.</span>
+              <span class="lang-es">Un especialista te llama en una hora hábil.</span>
+            </p>
+            <a class="btn btn-primary" href="tel:+15616531765">
+              <span class="lang-en">Or call now: (561) 653-1765</span>
+              <span class="lang-es">O llama ya: (561) 653-1765</span>
+            </a>
+          </div>
         </div>
       </div>
 
     </div>
+
+    <!-- Hero bottom spec strip -->
+    <div class="hero-spec-strip">
+      <div class="spec-card">
+        <div class="spec-lbl"><span class="lang-en">Years</span><span class="lang-es">Años</span></div>
+        <div class="spec-val">9 <small>yr</small></div>
+        <div class="spec-sub"><span class="lang-en">Family-Owned · Est. 2017</span><span class="lang-es">Familiar · Desde 2017</span></div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-lbl">BBB Rating</div>
+        <div class="spec-val">A<small>-</small></div>
+        <div class="spec-sub"><span class="lang-en">Accredited Business</span><span class="lang-es">Negocio Acreditado</span></div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-lbl"><span class="lang-en">Down Payment From</span><span class="lang-es">Inicial Desde</span></div>
+        <div class="spec-val">$1.5<small>k</small></div>
+        <div class="spec-sub"><span class="lang-en">Sedans · Some Trucks</span><span class="lang-es">Sedanes · Algunas Camionetas</span></div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-lbl"><span class="lang-en">No SSN Required</span><span class="lang-es">Sin SSN Requerido</span></div>
+        <div class="spec-val">ITIN</div>
+        <div class="spec-sub"><span class="lang-en">Hablamos Español</span><span class="lang-es">Bilingual Office</span></div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-lbl"><span class="lang-en">Pre-Approval</span><span class="lang-es">Pre-Aprobación</span></div>
+        <div class="spec-val">2 <small>min</small></div>
+        <div class="spec-sub"><span class="lang-en">Soft pull · No credit hit</span><span class="lang-es">Consulta suave</span></div>
+      </div>
+    </div>
+
   </div>
 </header>
 
@@ -1474,7 +1508,7 @@ input[type="range"].slider::-moz-range-thumb {
   <div class="wrap">
     <div class="why-grid reveal">
       <div>
-        <div class="section-marker">01 / <span class="lang-en">The Difference</span><span class="lang-es">La diferencia</span></div>
+        <div class="section-marker">01 / <span class="lang-en">The Difference</span><span class="lang-es">La Diferencia</span></div>
         <h2>
           <span class="lang-en">A car lot that <em>actually</em> finances you.</span>
           <span class="lang-es">El concesionario que <em>de verdad</em> te financia.</span>
@@ -1523,24 +1557,24 @@ input[type="range"].slider::-moz-range-thumb {
   <div class="wrap">
     <div class="inventory-head reveal">
       <div>
-        <div class="section-marker">02 / <span class="lang-en">Pick your ride</span><span class="lang-es">Elige tu carro</span></div>
+        <div class="section-marker">02 / <span class="lang-en">Pick Your Ride</span><span class="lang-es">Elige Tu Carro</span></div>
         <h2>
           <span class="lang-en">70+ on the lot. <em>Updated daily.</em></span>
           <span class="lang-es">70+ en el lote. <em>Actualizado a diario.</em></span>
         </h2>
       </div>
-      <a href="#form" class="btn btn-gold">
+      <a href="#form" class="btn btn-ink">
         <span class="lang-en">Pre-approve first</span>
         <span class="lang-es">Pre-aprueba primero</span>
-        <span class="arrow">→</span>
+        <span>→</span>
       </a>
     </div>
 
     <div class="inv-grid">
-      <article class="inv-card reveal tilt-card">
+      <article class="inv-card reveal">
         <div class="photo">
           <span class="tag"><span class="lang-en">Popular</span><span class="lang-es">Popular</span></span>
-          <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80" alt="2018 Honda Civic LX silver sedan" loading="lazy" onerror="this.style.display='none'">
+          <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80" alt="2018 Honda Civic LX" loading="lazy" onerror="this.style.display='none'">
         </div>
         <div class="meta">
           <div class="model">2018 Honda Civic LX</div>
@@ -1552,7 +1586,7 @@ input[type="range"].slider::-moz-range-thumb {
             </div>
             <div style="text-align:right">
               <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div style="font-family:var(--font-display);font-size:20px;color:var(--bone)">$1,500</div>
+              <div class="down">$1,500</div>
             </div>
           </div>
         </div>
@@ -1562,10 +1596,10 @@ input[type="range"].slider::-moz-range-thumb {
         </a>
       </article>
 
-      <article class="inv-card reveal tilt-card">
+      <article class="inv-card reveal">
         <div class="photo">
-          <span class="tag" style="background:var(--bullion);color:var(--onyx)"><span class="lang-en">New arrival</span><span class="lang-es">Recién llegado</span></span>
-          <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80" alt="2019 Toyota Camry LE white sedan" loading="lazy" onerror="this.style.display='none'">
+          <span class="tag" style="background:var(--bullion);color:var(--ink)"><span class="lang-en">New Arrival</span><span class="lang-es">Recién Llegado</span></span>
+          <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80" alt="2019 Toyota Camry LE" loading="lazy" onerror="this.style.display='none'">
         </div>
         <div class="meta">
           <div class="model">2019 Toyota Camry LE</div>
@@ -1577,7 +1611,7 @@ input[type="range"].slider::-moz-range-thumb {
             </div>
             <div style="text-align:right">
               <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div style="font-family:var(--font-display);font-size:20px;color:var(--bone)">$1,800</div>
+              <div class="down">$1,800</div>
             </div>
           </div>
         </div>
@@ -1587,10 +1621,10 @@ input[type="range"].slider::-moz-range-thumb {
         </a>
       </article>
 
-      <article class="inv-card reveal tilt-card">
+      <article class="inv-card reveal">
         <div class="photo">
-          <span class="tag"><span class="lang-en">$0 SSN</span><span class="lang-es">$0 SSN</span></span>
-          <img src="https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&w=900&q=80" alt="2017 Ford F-150 XL pickup truck" loading="lazy" onerror="this.style.display='none'">
+          <span class="tag">$0 SSN</span>
+          <img src="https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&w=900&q=80" alt="2017 Ford F-150 XL" loading="lazy" onerror="this.style.display='none'">
         </div>
         <div class="meta">
           <div class="model">2017 Ford F-150 XL</div>
@@ -1602,7 +1636,7 @@ input[type="range"].slider::-moz-range-thumb {
             </div>
             <div style="text-align:right">
               <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div style="font-family:var(--font-display);font-size:20px;color:var(--bone)">$2,500</div>
+              <div class="down">$2,500</div>
             </div>
           </div>
         </div>
@@ -1625,7 +1659,7 @@ input[type="range"].slider::-moz-range-thumb {
           <span class="lang-en">How much <em>can I</em> afford?</span>
           <span class="lang-es">¿Cuánto <em>puedo</em> pagar?</span>
         </h2>
-        <p class="lede" style="font-size:20px;max-width:42ch;">
+        <p class="lede" style="font-size:18px;max-width:42ch;">
           <span class="lang-en">Drag the sliders. We'll show you what you'll likely drive home this weekend.</span>
           <span class="lang-es">Mueve los sliders. Te mostramos qué vas a manejar este fin de semana.</span>
         </p>
@@ -1665,7 +1699,7 @@ input[type="range"].slider::-moz-range-thumb {
         <a href="#form" class="btn btn-primary" style="width:100%;justify-content:center;">
           <span class="lang-en">Lock this payment</span>
           <span class="lang-es">Asegura este pago</span>
-          <span class="arrow">→</span>
+          <span>→</span>
         </a>
       </div>
     </div>
@@ -1675,7 +1709,7 @@ input[type="range"].slider::-moz-range-thumb {
 <!-- ─────────────────────────── TESTIMONIALS ─────────────────────────── -->
 <section class="testimonials">
   <div class="wrap">
-    <div class="section-marker" style="color:var(--chrome);">04 / <span class="lang-en">Real customers</span><span class="lang-es">Clientes reales</span></div>
+    <div class="section-marker">04 / <span class="lang-en">Real Customers</span><span class="lang-es">Clientes Reales</span></div>
     <h2 class="reveal">
       <span class="lang-en">Three people. Three <em>yeses</em>.</span>
       <span class="lang-es">Tres personas. Tres <em>síes</em>.</span>
@@ -1706,7 +1740,7 @@ input[type="range"].slider::-moz-range-thumb {
   <div class="wrap">
     <div class="trade-grid">
       <div class="reveal">
-        <div class="section-marker">05 / <span class="lang-en">Trade-in</span><span class="lang-es">Cambio</span></div>
+        <div class="section-marker">05 / <span class="lang-en">Trade-In</span><span class="lang-es">Cambio</span></div>
         <h2 style="margin-bottom:20px;">
           <span class="lang-en">Trade your old car. <em>Get $500 off down.</em></span>
           <span class="lang-es">Cambia tu carro viejo. <em>$500 menos de inicial.</em></span>
@@ -1732,7 +1766,7 @@ input[type="range"].slider::-moz-range-thumb {
         <a href="#form" class="btn btn-primary" style="margin-top:8px;">
           <span class="lang-en">Get trade value</span>
           <span class="lang-es">Ver valor de cambio</span>
-          <span class="arrow">→</span>
+          <span>→</span>
         </a>
       </div>
     </div>
@@ -1744,7 +1778,7 @@ input[type="range"].slider::-moz-range-thumb {
   <div class="wrap">
     <div class="loc-grid">
       <div class="reveal">
-        <div class="section-marker" style="color:var(--chrome);">06 / <span class="lang-en">Find us</span><span class="lang-es">Encuéntranos</span></div>
+        <div class="section-marker">06 / <span class="lang-en">Find Us</span><span class="lang-es">Encuéntranos</span></div>
         <h2>
           <span class="lang-en">North Military Trail. <em>Open seven days.</em></span>
           <span class="lang-es">North Military Trail. <em>Abierto los 7 días.</em></span>
@@ -1778,7 +1812,7 @@ input[type="range"].slider::-moz-range-thumb {
 <!-- ─────────────────────────── FAQ ─────────────────────────── -->
 <section class="faq" id="faq">
   <div class="wrap">
-    <div class="section-marker">07 / <span class="lang-en">Common questions</span><span class="lang-es">Preguntas frecuentes</span></div>
+    <div class="section-marker">07 / <span class="lang-en">Common Questions</span><span class="lang-es">Preguntas Frecuentes</span></div>
     <h2 class="reveal">
       <span class="lang-en">The things people <em>actually</em> ask.</span>
       <span class="lang-es">Lo que la gente <em>de verdad</em> pregunta.</span>
@@ -1811,8 +1845,8 @@ input[type="range"].slider::-moz-range-thumb {
           <span class="chevron">+</span>
         </button>
         <div class="faq-a"><div class="faq-a-inner">
-          <span class="lang-en">Yes — any condition. Running, not running, salvage title, even if you still owe on it. We appraise it in 30 minutes and apply the value to your down payment. Bring the title if you have it.</span>
-          <span class="lang-es">Sí — en cualquier condición. Que ande, que no ande, título de salvamento, incluso si aún debes dinero por él. Lo avaluamos en 30 minutos y aplicamos el valor a tu inicial. Trae el título si lo tienes.</span>
+          <span class="lang-en">Yes — any condition. Running, not running, salvage title, even if you still owe on it. We appraise it in 30 minutes and apply the value to your down payment.</span>
+          <span class="lang-es">Sí — en cualquier condición. Que ande, que no ande, título de salvamento, incluso si aún debes dinero por él. Lo avaluamos en 30 minutos y aplicamos el valor a tu inicial.</span>
         </div></div>
       </div>
       <div class="faq-item">
@@ -1841,8 +1875,8 @@ input[type="range"].slider::-moz-range-thumb {
           <span class="chevron">+</span>
         </button>
         <div class="faq-a"><div class="faq-a-inner">
-          <span class="lang-en">Sí. The whole office speaks Spanish — finance, sales, service. Pregunta por cualquiera y te atienden en tu idioma. We get it: this is a big decision and you deserve to make it in the language you think in.</span>
-          <span class="lang-es">Sí. Toda la oficina habla español — financiamiento, ventas, servicio. Pregunta por cualquiera. Sabemos que esta es una decisión grande y mereces tomarla en el idioma en el que piensas.</span>
+          <span class="lang-en">Sí. The whole office speaks Spanish — finance, sales, service. Pregunta por cualquiera y te atienden en tu idioma.</span>
+          <span class="lang-es">Sí. Toda la oficina habla español — financiamiento, ventas, servicio. Pregunta por cualquiera.</span>
         </div></div>
       </div>
     </div>
@@ -1896,7 +1930,7 @@ input[type="range"].slider::-moz-range-thumb {
   </div>
 </footer>
 
-<!-- ─────────────────────────── STICKY MOBILE CTA ─────────────────────────── -->
+<!-- Sticky mobile CTA -->
 <a href="#form" class="sticky-cta" id="stickyCta">
   <span>
     <span class="lang-en">Get pre-approved</span>
@@ -1905,7 +1939,7 @@ input[type="range"].slider::-moz-range-thumb {
   <span class="pill">2 min</span>
 </a>
 
-<!-- ─────────────────────────── GSAP ─────────────────────────── -->
+<!-- GSAP -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
@@ -1921,7 +1955,6 @@ input[type="range"].slider::-moz-range-thumb {
   function setLang(lang) {
     html.setAttribute('data-lang', lang);
     html.setAttribute('lang', lang);
-    // Sync placeholders
     document.querySelectorAll('[data-ph-en]').forEach(el => {
       el.placeholder = el.getAttribute(`data-ph-${lang}`) || el.getAttribute('data-ph-en');
     });
@@ -1950,64 +1983,76 @@ input[type="range"].slider::-moz-range-thumb {
   onScroll();
 
   // ──────────────────────────────────────────────
+  // HERO TABS — swap vehicle image
+  // ──────────────────────────────────────────────
+  const tabImages = {
+    sedan: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1600&q=85',
+    suv: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1600&q=85',
+    truck: 'https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&w=1600&q=85',
+    van: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1600&q=85',
+    'trade-in': 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=85',
+    financing: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85'
+  };
+  const tabWords = {
+    sedan: 'DRIVE',
+    suv: 'CRUISE',
+    truck: 'HAUL',
+    van: 'FAMILY',
+    'trade-in': 'TRADE',
+    financing: 'OWN'
+  };
+  const heroCarImg = document.getElementById('heroCarImg');
+  const heroBigword = document.querySelector('.hero-bigword');
+  document.querySelectorAll('.hero-tabs .tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.hero-tabs .tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const v = tab.dataset.vehicle;
+      // Fade out, swap, fade in
+      heroCarImg.classList.add('swapping');
+      setTimeout(() => {
+        if (tabImages[v]) heroCarImg.src = tabImages[v];
+        if (tabWords[v]) heroBigword.textContent = tabWords[v];
+        heroCarImg.classList.remove('swapping');
+      }, 200);
+      // Also pre-select in form step 1 if it's a vehicle category
+      if (['sedan','suv','truck','van'].includes(v)) {
+        const formChoice = document.querySelector(`#vehicleChoices .choice[data-value="${v}"]`);
+        if (formChoice) {
+          document.querySelectorAll('#vehicleChoices .choice').forEach(c => c.classList.remove('selected'));
+          formChoice.classList.add('selected');
+          document.getElementById('hVehicle').value = v;
+          const next1 = document.querySelector('.step-next[data-next-from="1"]');
+          if (next1) next1.disabled = false;
+        }
+      }
+    });
+  });
+
+  // ──────────────────────────────────────────────
   // GSAP entrance + scroll reveals
   // ──────────────────────────────────────────────
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (!reduceMotion && window.gsap) {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Hero word-by-word reveal
-    const words = document.querySelectorAll('#heroHeadline .word > span, #heroHeadline .word > em > span');
-    gsap.set(words, { yPercent: 110 });
-    gsap.to(words, {
-      yPercent: 0,
-      duration: 1.05,
-      ease: 'expo.out',
-      stagger: 0.075,
-      delay: 0.2
-    });
-
-    // Hero reveals (eyebrow, sub, cta, trust)
-    gsap.fromTo('.hero .reveal-fast', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.9, ease: 'power3.out', delay: 0.1 });
-    gsap.fromTo('.hero .reveal', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1.0, ease: 'power3.out', stagger: 0.12, delay: 0.7 });
+    // Hero entrance
+    gsap.fromTo('.hero-top', { y: -20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out', delay: 0.1 });
+    gsap.fromTo('.hero-bigword', { scale: 0.92, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.4, ease: 'power3.out', delay: 0.2 });
+    gsap.fromTo('.hero-tabs .tab', { x: -20, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: 'power3.out', stagger: 0.05, delay: 0.4 });
+    gsap.fromTo('.hero-car-img', { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease: 'power3.out', delay: 0.3 });
+    gsap.fromTo('.hero-form-col', { x: 30, opacity: 0 }, { x: 0, opacity: 1, duration: 1, ease: 'power3.out', delay: 0.5 });
+    gsap.fromTo('.spec-card', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: 'power3.out', stagger: 0.08, delay: 0.7 });
 
     // Scroll reveals
     document.querySelectorAll('section .reveal, footer .reveal').forEach(el => {
       gsap.fromTo(el,
-        { y: 50, opacity: 0 },
+        { y: 40, opacity: 0 },
         {
           y: 0, opacity: 1, duration: 1.0, ease: 'power3.out',
           scrollTrigger: { trigger: el, start: 'top 82%', toggleActions: 'play none none none' }
         }
       );
-    });
-
-    // Subtle parallax on hero gradient on mousemove
-    const hero = document.querySelector('.hero');
-    hero.addEventListener('mousemove', (e) => {
-      const r = hero.getBoundingClientRect();
-      const x = ((e.clientX - r.left) / r.width - 0.5) * 12;
-      const y = ((e.clientY - r.top) / r.height - 0.5) * 12;
-      gsap.to(hero, { '--mx': `${x}px`, '--my': `${y}px`, duration: 0.6 });
-    });
-
-    // Card tilt
-    document.querySelectorAll('.tilt-card').forEach(card => {
-      card.addEventListener('mousemove', (e) => {
-        const r = card.getBoundingClientRect();
-        const px = (e.clientX - r.left) / r.width;
-        const py = (e.clientY - r.top) / r.height;
-        gsap.to(card, {
-          rotateY: (px - 0.5) * 8,
-          rotateX: -(py - 0.5) * 8,
-          transformPerspective: 1000,
-          duration: 0.4,
-          ease: 'power2.out'
-        });
-      });
-      card.addEventListener('mouseleave', () => {
-        gsap.to(card, { rotateY: 0, rotateX: 0, duration: 0.6, ease: 'power3.out' });
-      });
     });
   }
 
@@ -2019,7 +2064,6 @@ input[type="range"].slider::-moz-range-thumb {
       const item = btn.closest('.faq-item');
       const ans = item.querySelector('.faq-a');
       const isOpen = item.classList.contains('open');
-      // Close siblings
       document.querySelectorAll('.faq-item.open').forEach(other => {
         if (other !== item) {
           other.classList.remove('open');
@@ -2049,13 +2093,10 @@ input[type="range"].slider::-moz-range-thumb {
       s.classList.toggle('active', Number(s.dataset.step) === n);
     });
     stepCounter.textContent = n;
-    // Update progress bar via CSS variable
     formCard.style.setProperty('--progress', `${(n / 3) * 100}%`);
   }
-  // Initial progress
   formCard.style.setProperty('--progress', '33%');
 
-  // Choice clicks
   function wireChoices(containerId, hiddenId, autoAdvance, nextStep) {
     const choices = document.querySelectorAll(`#${containerId} .choice`);
     const hidden = document.getElementById(hiddenId);
@@ -2064,11 +2105,9 @@ input[type="range"].slider::-moz-range-thumb {
         choices.forEach(o => o.classList.remove('selected'));
         c.classList.add('selected');
         hidden.value = c.dataset.value;
-        // Enable next button on the current step
         const step = c.closest('.step');
         const next = step.querySelector('.step-next');
         if (next) next.disabled = false;
-        // Auto-advance after a tiny delay for tactile feel
         if (autoAdvance) setTimeout(() => gotoStep(nextStep), 280);
       });
     });
@@ -2091,30 +2130,29 @@ input[type="range"].slider::-moz-range-thumb {
   });
 
   // ──────────────────────────────────────────────
-  // Payment estimator — live sliders
+  // Payment estimator
   // ──────────────────────────────────────────────
   const downSlider = document.getElementById('downSlider');
   const weekSlider = document.getElementById('weekSlider');
   const downVal = document.getElementById('downVal');
   const weekVal = document.getElementById('weekVal');
   const payoutLine = document.getElementById('payoutLine');
-  const vehicleType = document.getElementById('vehicleType');
-  const vehicleTypeEs = document.getElementById('vehicleTypeEs');
+  const vehicleTypeEl = document.getElementById('vehicleType');
+  const vehicleTypeEsEl = document.getElementById('vehicleTypeEs');
 
-  const vehicleMap = {
-    en: [ // [downMax, weekMax → label]
-      { maxDown: 1700, label: 'Sedan' },
-      { maxDown: 2200, label: 'compact SUV' },
-      { maxDown: 3000, label: 'mid-size SUV' },
-      { maxDown: 5000, label: 'Truck' }
-    ],
-    es: [
-      { maxDown: 1700, label: 'Sedán' },
-      { maxDown: 2200, label: 'SUV compacta' },
-      { maxDown: 3000, label: 'SUV mediana' },
-      { maxDown: 5000, label: 'Camioneta' }
-    ]
-  };
+  const vehicleMapEn = [
+    { maxDown: 1700, label: 'Sedan' },
+    { maxDown: 2200, label: 'compact SUV' },
+    { maxDown: 3000, label: 'mid-size SUV' },
+    { maxDown: 5000, label: 'Truck' }
+  ];
+  const vehicleMapEs = [
+    { maxDown: 1700, label: 'Sedán' },
+    { maxDown: 2200, label: 'SUV compacta' },
+    { maxDown: 3000, label: 'SUV mediana' },
+    { maxDown: 5000, label: 'Camioneta' }
+  ];
+
   function updateSliderFill(slider) {
     const pct = ((slider.value - slider.min) / (slider.max - slider.min)) * 100;
     slider.style.setProperty('--fill', pct + '%');
@@ -2125,17 +2163,10 @@ input[type="range"].slider::-moz-range-thumb {
     downVal.textContent = '$' + down.toLocaleString();
     weekVal.textContent = '$' + week;
     payoutLine.textContent = `$${week}/wk · $${down.toLocaleString()} down`;
-    // payout line ES
-    const esPayout = document.querySelector('[data-lang="es"]') ? null : null;
-    // Pick vehicle label by maxDown
-    const cur = html.getAttribute('data-lang') === 'es' ? 'es' : 'en';
-    const choices = vehicleMap[cur];
-    const pick = choices.find(c => down <= c.maxDown) || choices[choices.length - 1];
-    const picken = vehicleMap.en.find(c => down <= c.maxDown) || vehicleMap.en[vehicleMap.en.length - 1];
-    const picked = vehicleMap.es.find(c => down <= c.maxDown) || vehicleMap.es[vehicleMap.es.length - 1];
-    vehicleType.textContent = picken.label;
-    vehicleTypeEs.textContent = picked.label;
-    // Find ES payout span and update both EN/ES
+    const picken = vehicleMapEn.find(c => down <= c.maxDown) || vehicleMapEn[vehicleMapEn.length - 1];
+    const picked = vehicleMapEs.find(c => down <= c.maxDown) || vehicleMapEs[vehicleMapEs.length - 1];
+    vehicleTypeEl.textContent = picken.label;
+    vehicleTypeEsEl.textContent = picked.label;
     const esAmt = document.querySelector('.lang-es .amt');
     if (esAmt) esAmt.textContent = `$${week}/sem · $${down.toLocaleString()} inicial`;
     updateSliderFill(downSlider);
@@ -2148,13 +2179,12 @@ input[type="range"].slider::-moz-range-thumb {
   // ──────────────────────────────────────────────
   // FORM SUBMISSION → GHL Contacts API
   // ⚠️ Security trade-off: PIT token in client JS. Scope = contacts.write only.
-  //    Worst case: spam contacts. Upgrade to Cloudflare Worker (worker.js) for prod.
   // ──────────────────────────────────────────────
   const GHL_TOKEN = 'pit-11e60db1-6362-4627-884c-a27c91747861';
   const GHL_LOCATION_ID = '1JkhDyRzZIktNwLCLPKD';
   const FIELD_VEHICLE_TYPE = '4LaTXflLobJ6VDULZfzq';
   const FIELD_MONTHLY_INCOME = 'lhnLP0MqawYA0rxOvb16';
-  const SOURCE_LABEL = 'Google Ads - Keys Motors Landing v2';
+  const SOURCE_LABEL = 'Google Ads - Keys Motors Landing v3';
 
   function normalizePhone(raw) {
     const digits = raw.replace(/[^\d+]/g, '');
@@ -2183,7 +2213,7 @@ input[type="range"].slider::-moz-range-thumb {
       source: SOURCE_LABEL,
       tags: [
         'google-ads-lead',
-        'landing-v2',
+        'landing-v3',
         `vehicle:${vehicleType}`,
         `income:${monthlyIncome}`,
         `urgency:${urgency || 'unspecified'}`,
@@ -2209,7 +2239,6 @@ input[type="range"].slider::-moz-range-thumb {
         form.style.display = 'none';
         document.querySelector('.form-microcopy').style.display = 'none';
         successState.classList.add('show');
-        // Google Ads conversion (placeholder — replace after creating conv action)
         if (window.gtag) {
           window.gtag('event', 'conversion', {
             send_to: 'AW-XXXXXXXXXX/CONVERSION_LABEL',
@@ -2217,7 +2246,6 @@ input[type="range"].slider::-moz-range-thumb {
           });
         }
         if (window.fbq) window.fbq('track', 'Lead');
-        // GTM dataLayer
         if (window.dataLayer) {
           window.dataLayer.push({ event: 'keys_motors_lead', vehicle: vehicleType, income: monthlyIncome, urgency });
         }
