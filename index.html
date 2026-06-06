@@ -1302,7 +1302,7 @@ input[type="range"].slider::-moz-range-thumb {
 
       <div class="hero-car-stage">
         <img class="hero-car-img" id="heroCarImg"
-             src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1600&q=85"
+             src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=85"
              alt="Featured used vehicle from Keys Motors">
       </div>
 
@@ -1574,7 +1574,7 @@ input[type="range"].slider::-moz-range-thumb {
       <article class="inv-card reveal">
         <div class="photo">
           <span class="tag"><span class="lang-en">Popular</span><span class="lang-es">Popular</span></span>
-          <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80" alt="2018 Honda Civic LX" loading="lazy" onerror="this.style.display='none'">
+          <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80" alt="2018 Honda Civic LX basic used sedan" loading="lazy" onerror="this.style.display='none'">
         </div>
         <div class="meta">
           <div class="model">2018 Honda Civic LX</div>
@@ -1624,7 +1624,7 @@ input[type="range"].slider::-moz-range-thumb {
       <article class="inv-card reveal">
         <div class="photo">
           <span class="tag">$0 SSN</span>
-          <img src="https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&w=900&q=80" alt="2017 Ford F-150 XL" loading="lazy" onerror="this.style.display='none'">
+          <img src="https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=900&q=80" alt="2017 Ford F-150 XL basic pickup truck" loading="lazy" onerror="this.style.display='none'">
         </div>
         <div class="meta">
           <div class="model">2017 Ford F-150 XL</div>
@@ -1985,13 +1985,14 @@ input[type="range"].slider::-moz-range-thumb {
   // ──────────────────────────────────────────────
   // HERO TABS — swap vehicle image
   // ──────────────────────────────────────────────
+  // Used economy car photos (verified Unsplash IDs of actual basic cars, NOT luxury exotics)
   const tabImages = {
-    sedan: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1600&q=85',
-    suv: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1600&q=85',
-    truck: 'https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&w=1600&q=85',
-    van: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1600&q=85',
-    'trade-in': 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=85',
-    financing: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85'
+    sedan: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=85',  // Toyota Camry — basic sedan
+    suv: 'https://images.unsplash.com/photo-1551817280-6d59c77ce1b8?auto=format&fit=crop&w=1600&q=85',       // Nissan Rogue — basic SUV
+    truck: 'https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=1600&q=85',     // Blue Ford F-150 — basic pickup
+    van: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=85',    // fallback Camry (until basic van photo found)
+    'trade-in': 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=85',
+    financing: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1600&q=85'
   };
   const tabWords = {
     sedan: 'DRIVE',
