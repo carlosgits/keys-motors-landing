@@ -2036,15 +2036,7 @@ input[type="range"].slider::-moz-range-thumb {
   if (!reduceMotion && window.gsap) {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Hero entrance
-    gsap.fromTo('.hero-top', { y: -20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out', delay: 0.1 });
-    gsap.fromTo('.hero-bigword', { scale: 0.92, opacity: 0 }, { scale: 1, opacity: 1, duration: 1.4, ease: 'power3.out', delay: 0.2 });
-    gsap.fromTo('.hero-tabs .tab', { x: -20, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: 'power3.out', stagger: 0.05, delay: 0.4 });
-    gsap.fromTo('.hero-car-img', { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease: 'power3.out', delay: 0.3 });
-    gsap.fromTo('.hero-form-col', { x: 30, opacity: 0 }, { x: 0, opacity: 1, duration: 1, ease: 'power3.out', delay: 0.5 });
-    gsap.fromTo('.spec-card', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: 'power3.out', stagger: 0.08, delay: 0.7 });
-
-    // Scroll reveals
+    // Scroll reveals only (hero renders immediately via CSS — no entrance animations to avoid stuck-opacity bugs)
     document.querySelectorAll('section .reveal, footer .reveal').forEach(el => {
       gsap.fromTo(el,
         { y: 40, opacity: 0 },
