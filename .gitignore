@@ -1,0 +1,6 @@
+# Local-only Python tools
+__pycache__/
+*.pyc
+
+# Keep the scripts but NOT any with secrets — both scripts here use env var so safe
+.env
