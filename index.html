@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#FBF8F2">
-<title>Keys Motors — Drive Today. We Are The Bank. | West Palm Beach FL</title>
-<meta name="description" content="Buy Here Pay Here in West Palm Beach. Bad credit, ITIN, no SSN — we finance everyone from $1,500 down. BBB A- · 9 years · Pre-approval in 2 minutes.">
-<meta property="og:title" content="Keys Motors — Drive Today. We Are The Bank.">
-<meta property="og:description" content="Bad credit. No credit. Bankruptcy. ITIN. We finance everyone — from $1,500 down. West Palm Beach, FL.">
+<title>Keys Motors — Drive Today. Approved Today. | Orlando FL</title>
+<meta name="description" content="Used cars in Orlando with financing through Capital One. Bad credit, no credit, bankruptcy — same-day approvals from $1,500 down. BBB A- · 9 years · Pre-approval in 2 minutes.">
+<meta property="og:title" content="Keys Motors — Drive Today. Approved Today.">
+<meta property="og:description" content="Bad credit. No credit. Bankruptcy. Same-day approvals through Capital One — from $1,500 down. Orlando, FL.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="es_US">
@@ -26,30 +26,30 @@
       "@type": ["AutoDealer", "LocalBusiness"],
       "@id": "https://carlosgits.github.io/keys-motors-landing/#dealer",
       "name": "Keys Motors",
-      "telephone": "+1-561-653-1765",
+      "telephone": "+1-407-777-5397",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "2480 N Military Trl",
-        "addressLocality": "West Palm Beach",
+        "streetAddress": "7126 E Colonial Drive",
+        "addressLocality": "Orlando",
         "addressRegion": "FL",
         "postalCode": "33409",
         "addressCountry": "US"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 26.713, "longitude": -80.117 },
+      "geo": { "@type": "GeoCoordinates", "latitude": 28.567, "longitude": -81.293 },
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "17:00" }
       ],
-      "areaServed": ["West Palm Beach","Lake Worth","Riviera Beach","Palm Beach County"]
+      "areaServed": ["Orlando","Kissimmee","Winter Park","Sanford","Orange County"]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need an SSN to get approved?", "acceptedAnswer": { "@type": "Answer", "text": "No. We accept ITIN — no Social Security Number required." }},
+        { "@type": "Question", "name": "Do I need an SSN to get approved?", "acceptedAnswer": { "@type": "Answer", "text": "Bring a valid photo ID, recent paystub (or 3 months of bank statements if you're 1099 or paid in cash), and proof of address. Our finance team will walk you through any additional documents." }},
         { "@type": "Question", "name": "What is the minimum down payment?", "acceptedAnswer": { "@type": "Answer", "text": "Down payments start at $1,500." }},
         { "@type": "Question", "name": "Can I trade in my current car?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — any condition, even with an open loan." }},
-        { "@type": "Question", "name": "Do you report to credit bureaus?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — to all three majors: Experian, Equifax, TransUnion." }},
+        { "@type": "Question", "name": "Who finances the loan?", "acceptedAnswer": { "@type": "Answer", "text": "We work with Capital One Auto Financing. Their underwriting reports to all three major credit bureaus, so your on-time payments build credit." }},
         { "@type": "Question", "name": "How fast can I drive away?", "acceptedAnswer": { "@type": "Answer", "text": "Same day." }},
         { "@type": "Question", "name": "Do you speak Spanish?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Toda nuestra oficina habla español." }}
       ]
@@ -70,8 +70,8 @@
   --ink: #14181F;
   --slate: #5A6172;
   --chrome: #9BA1AC;
-  --signal: #C8102E;
-  --signal-deep: #8F0B20;
+  --signal: #EE7720;
+  --signal-deep: #B9530A;
   --bullion: #BF9B30;
   --bullion-soft: #D4B564;
   --onyx: #0B0F1A;
@@ -915,6 +915,89 @@ input[type="range"].slider::-moz-range-thumb {
   margin-top: 6px;
 }
 
+/* Loan Calculator inputs (replaces slider variant) */
+.loan-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 20px;
+  margin-bottom: 28px;
+}
+@media (max-width: 540px) { .loan-grid-2 { grid-template-columns: 1fr; gap: 14px; } }
+.loan-lbl {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.loan-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--paper);
+  border: 1px solid rgba(20,24,31,.12);
+  border-radius: 8px;
+  transition: border-color .2s, box-shadow .2s;
+}
+.loan-input-wrap:focus-within { border-color: var(--signal); box-shadow: 0 0 0 4px rgba(238,119,32,.1); }
+.loan-prefix {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--slate);
+  padding: 0 0 0 14px;
+  font-weight: 500;
+}
+.loan-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 13px 14px 13px 8px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  width: 100%;
+  -moz-appearance: textfield;
+}
+.loan-input::-webkit-outer-spin-button,
+.loan-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.loan-input:focus { outline: none; }
+
+.loan-output {
+  border-top: 1px solid var(--warm-line);
+  padding-top: 22px;
+  margin-top: 6px;
+}
+.loan-output-lbl {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.loan-output-amt {
+  font-family: var(--font-display);
+  font-size: clamp(38px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--signal);
+  letter-spacing: -0.04em;
+  margin-bottom: 10px;
+}
+.loan-output-sub {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--slate);
+  line-height: 1.45;
+  max-width: 38ch;
+}
+
 /* ─────────────────────────────────────────────
    TESTIMONIALS — paper bg light
    ───────────────────────────────────────────── */
@@ -1247,10 +1330,10 @@ input[type="range"].slider::-moz-range-thumb {
       <span class="brand-name">Keys<em>Motors</em></span>
     </a>
     <div class="nav-actions">
-      <a class="nav-call" href="tel:+15616531765">
+      <a class="nav-call" href="tel:+14077775397">
         <span class="dot"></span>
-        <span class="lang-en">Call (561) 653-1765</span>
-        <span class="lang-es">Llama (561) 653-1765</span>
+        <span class="lang-en">Call (407) 777-5397</span>
+        <span class="lang-es">Llama (407) 777-5397</span>
       </a>
       <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
         <span class="lang-en">ES</span>
@@ -1275,8 +1358,8 @@ input[type="range"].slider::-moz-range-thumb {
         </div>
       </div>
       <div class="hero-eyebrow-spec">
-        <span class="lang-en">BHPH Specialist · West Palm Beach</span>
-        <span class="lang-es">BHPH Especialista · West Palm Beach</span>
+        <span class="lang-en">BHPH Specialist · Orlando</span>
+        <span class="lang-es">BHPH Especialista · Orlando</span>
       </div>
     </div>
 
@@ -1461,9 +1544,9 @@ input[type="range"].slider::-moz-range-thumb {
               <span class="lang-en">A specialist calls within one business hour.</span>
               <span class="lang-es">Un especialista te llama en una hora hábil.</span>
             </p>
-            <a class="btn btn-primary" href="tel:+15616531765">
-              <span class="lang-en">Or call now: (561) 653-1765</span>
-              <span class="lang-es">O llama ya: (561) 653-1765</span>
+            <a class="btn btn-primary" href="tel:+14077775397">
+              <span class="lang-en">Or call now: (407) 777-5397</span>
+              <span class="lang-es">O llama ya: (407) 777-5397</span>
             </a>
           </div>
         </div>
@@ -1489,9 +1572,9 @@ input[type="range"].slider::-moz-range-thumb {
         <div class="spec-sub"><span class="lang-en">Sedans · Some Trucks</span><span class="lang-es">Sedanes · Algunas Camionetas</span></div>
       </div>
       <div class="spec-card">
-        <div class="spec-lbl"><span class="lang-en">No SSN Required</span><span class="lang-es">Sin SSN Requerido</span></div>
-        <div class="spec-val">ITIN</div>
-        <div class="spec-sub"><span class="lang-en">Hablamos Español</span><span class="lang-es">Bilingual Office</span></div>
+        <div class="spec-lbl"><span class="lang-en">Bilingual</span><span class="lang-es">Bilingüe</span></div>
+        <div class="spec-val">EN/ES</div>
+        <div class="spec-sub"><span class="lang-en">Hablamos Español</span><span class="lang-es">English Spoken</span></div>
       </div>
       <div class="spec-card">
         <div class="spec-lbl"><span class="lang-en">Pre-Approval</span><span class="lang-es">Pre-Aprobación</span></div>
@@ -1510,41 +1593,41 @@ input[type="range"].slider::-moz-range-thumb {
       <div>
         <div class="section-marker">01 / <span class="lang-en">The Difference</span><span class="lang-es">La Diferencia</span></div>
         <h2>
-          <span class="lang-en">A car lot that <em>actually</em> finances you.</span>
-          <span class="lang-es">El concesionario que <em>de verdad</em> te financia.</span>
+          <span class="lang-en">A car lot that <em>gets you approved.</em></span>
+          <span class="lang-es">El concesionario que <em>te aprueba.</em></span>
         </h2>
       </div>
       <p class="lede">
-        <span class="lang-en">We don't send your file to a bank that says no. We're the lender. The approval, the keys, and the next twelve months of credit building all happen under one roof — ours.</span>
-        <span class="lang-es">No mandamos tu papeleo a un banco que te diga que no. Nosotros somos el prestamista. La aprobación, las llaves, y los próximos doce meses construyendo crédito — todo bajo el mismo techo.</span>
+        <span class="lang-en">We finance through Capital One Auto. Real bank rates, fast decisions, and a finance desk that knows how to get bad-credit and no-credit buyers approved — same day.</span>
+        <span class="lang-es">Financiamos a través de Capital One Auto. Tasas reales de banco, decisiones rápidas y un equipo que sabe cómo aprobar a compradores con mal crédito o sin crédito — el mismo día.</span>
       </p>
     </div>
 
     <div class="why-cols">
       <div class="why-col reveal">
         <div class="num-tag">/ 01</div>
-        <h3><span class="lang-en">We are <em>the bank</em>.</span><span class="lang-es">Nosotros somos <em>el banco</em>.</span></h3>
+        <h3><span class="lang-en">Capital One <em>financing</em>.</span><span class="lang-es">Financiamos con <em>Capital One</em>.</span></h3>
         <p>
-          <span class="lang-en">In-house financing. No third-party lender to deny you. The person approving your loan is sitting twelve feet from the keys to your car.</span>
-          <span class="lang-es">Financiamiento propio. Sin prestamista externo que te niegue. La persona que aprueba tu préstamo está sentada a cuatro metros de las llaves de tu carro.</span>
+          <span class="lang-en">We work directly with Capital One Auto. Real bank underwriting, real bank rates, no buy-here-pay-here gimmicks. Decisions in minutes, not days.</span>
+          <span class="lang-es">Trabajamos directo con Capital One Auto. Aprobación bancaria real, tasas reales de banco, sin trucos de buy-here-pay-here. Decisión en minutos, no en días.</span>
         </p>
         <div class="accent-line"></div>
       </div>
       <div class="why-col reveal">
         <div class="num-tag">/ 02</div>
-        <h3><span class="lang-en">Credit <em>graduation</em>.</span><span class="lang-es">Construyes <em>crédito</em>.</span></h3>
+        <h3><span class="lang-en">Same-day <em>approvals</em>.</span><span class="lang-es">Aprobación <em>el mismo día</em>.</span></h3>
         <p>
-          <span class="lang-en">Twelve months of on-time payments and we report them to all three bureaus. Most of our customers qualify for prime bank rates by year two.</span>
-          <span class="lang-es">Doce meses de pagos puntuales y los reportamos a las tres agencias. La mayoría de nuestros clientes califican para tasas bancarias prime para el año dos.</span>
+          <span class="lang-en">Apply in two minutes. Our finance team has the paperwork, the pricing, and the keys ready before you walk out the door. Drive home today.</span>
+          <span class="lang-es">Aplica en dos minutos. Nuestro equipo de finanzas tiene el papeleo, el precio y las llaves listos antes que salgas. Maneja a casa hoy.</span>
         </p>
         <div class="accent-line"></div>
       </div>
       <div class="why-col reveal">
         <div class="num-tag">/ 03</div>
-        <h3><span class="lang-en"><em>ITIN</em> welcome.</span><span class="lang-es">Aceptamos <em>ITIN</em>.</span></h3>
+        <h3><span class="lang-en">Bilingual <em>service</em>.</span><span class="lang-es">Atención <em>bilingüe</em>.</span></h3>
         <p>
-          <span class="lang-en">No Social Security Number? No problem. Bring your ITIN, a paystub, and proof of address. Our whole team speaks Spanish — pregunta por cualquiera.</span>
-          <span class="lang-es">¿Sin número de Seguro Social? No es problema. Trae tu ITIN, un cheque de pago y prueba de domicilio. Todo el equipo habla español — pregunta por cualquiera.</span>
+          <span class="lang-en">Our whole office speaks Spanish — finance, sales, service. Hablamos español, sin intérpretes y sin esperar. Pregunta por cualquiera del equipo.</span>
+          <span class="lang-es">Toda la oficina habla español — financiamiento, ventas y servicio. Sin intérpretes, sin esperas. Pregunta por cualquiera del equipo.</span>
         </p>
         <div class="accent-line"></div>
       </div>
@@ -1581,12 +1664,11 @@ input[type="range"].slider::-moz-range-thumb {
           <div class="specs">68k mi · Auto · 1.5L</div>
           <div class="price-row">
             <div>
-              <div class="price-label"><span class="lang-en">As low as</span><span class="lang-es">Desde</span></div>
-              <div class="price">$79<small>/wk</small></div>
+              <div class="price-label"><span class="lang-en">Sale price</span><span class="lang-es">Precio</span></div>
+              <div class="price">$14,495</div>
             </div>
             <div style="text-align:right">
-              <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div class="down">$1,500</div>
+              <div class="price-label"><span class="lang-en">Apply to see terms</span><span class="lang-es">Aplica para ver términos</span></div>
             </div>
           </div>
         </div>
@@ -1606,12 +1688,11 @@ input[type="range"].slider::-moz-range-thumb {
           <div class="specs">52k mi · Auto · 2.5L</div>
           <div class="price-row">
             <div>
-              <div class="price-label"><span class="lang-en">As low as</span><span class="lang-es">Desde</span></div>
-              <div class="price">$89<small>/wk</small></div>
+              <div class="price-label"><span class="lang-en">Sale price</span><span class="lang-es">Precio</span></div>
+              <div class="price">$17,995</div>
             </div>
             <div style="text-align:right">
-              <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div class="down">$1,800</div>
+              <div class="price-label"><span class="lang-en">Apply to see terms</span><span class="lang-es">Aplica para ver términos</span></div>
             </div>
           </div>
         </div>
@@ -1631,12 +1712,11 @@ input[type="range"].slider::-moz-range-thumb {
           <div class="specs">89k mi · Auto · V8</div>
           <div class="price-row">
             <div>
-              <div class="price-label"><span class="lang-en">As low as</span><span class="lang-es">Desde</span></div>
-              <div class="price">$119<small>/wk</small></div>
+              <div class="price-label"><span class="lang-en">Sale price</span><span class="lang-es">Precio</span></div>
+              <div class="price">$22,995</div>
             </div>
             <div style="text-align:right">
-              <div class="price-label"><span class="lang-en">Down</span><span class="lang-es">Inicial</span></div>
-              <div class="down">$2,500</div>
+              <div class="price-label"><span class="lang-en">Apply to see terms</span><span class="lang-es">Aplica para ver términos</span></div>
             </div>
           </div>
         </div>
@@ -1649,56 +1729,51 @@ input[type="range"].slider::-moz-range-thumb {
   </div>
 </section>
 
-<!-- ─────────────────────────── PAYMENT ESTIMATOR ─────────────────────────── -->
+<!-- ─────────────────────────── LOAN CALCULATOR ─────────────────────────── -->
 <section class="estimator" id="estimator">
   <div class="wrap">
     <div class="est-grid">
       <div class="reveal">
-        <div class="section-marker">03 / <span class="lang-en">Affordability</span><span class="lang-es">Asequibilidad</span></div>
+        <div class="section-marker">03 / <span class="lang-en">Loan Calculator</span><span class="lang-es">Calculadora de Préstamo</span></div>
         <h2 style="margin-bottom:24px;">
-          <span class="lang-en">How much <em>can I</em> afford?</span>
-          <span class="lang-es">¿Cuánto <em>puedo</em> pagar?</span>
+          <span class="lang-en">Estimate your <em>monthly payment.</em></span>
+          <span class="lang-es">Calcula tu <em>pago mensual.</em></span>
         </h2>
         <p class="lede" style="font-size:18px;max-width:42ch;">
-          <span class="lang-en">Drag the sliders. We'll show you what you'll likely drive home this weekend.</span>
-          <span class="lang-es">Mueve los sliders. Te mostramos qué vas a manejar este fin de semana.</span>
+          <span class="lang-en">Type in the loan amount, annual interest rate, and term. Your estimated monthly payment updates instantly.</span>
+          <span class="lang-es">Escribe el monto del préstamo, la tasa anual y el plazo. Tu pago mensual estimado se actualiza al instante.</span>
         </p>
       </div>
 
       <div class="est-panel reveal">
-        <div class="label-mono" style="margin-bottom:6px;">
-          <span class="lang-en">You could drive</span><span class="lang-es">Podrías manejar</span>
-        </div>
-        <div class="est-display">
-          <span class="lang-en">a <span class="vehicle-type" id="vehicleType">Sedan</span></span>
-          <span class="lang-es">un <span class="vehicle-type" id="vehicleTypeEs">Sedán</span></span>
-        </div>
-        <div class="est-payment-line">
-          <span class="lang-en">≈ <span class="amt" id="payoutLine">$89/wk · $1,800 down</span></span>
-          <span class="lang-es">≈ <span class="amt">$89/sem · $1,800 inicial</span></span>
-        </div>
-
-        <div class="slider-block">
-          <div class="slider-label">
-            <div class="lbl"><span class="lang-en">Down payment</span><span class="lang-es">Inicial</span></div>
-            <div class="val" id="downVal">$1,800</div>
+        <div class="loan-grid-2">
+          <div class="loan-field">
+            <label class="loan-lbl"><span class="lang-en">Car Loan Amount ($)</span><span class="lang-es">Monto del Préstamo ($)</span></label>
+            <div class="loan-input-wrap"><span class="loan-prefix">$</span><input class="loan-input" type="number" id="loanAmount" value="10000" min="0" step="100"></div>
           </div>
-          <input type="range" class="slider" id="downSlider" min="1500" max="5000" step="100" value="1800">
-          <div class="slider-scale"><span>$1,500</span><span>$5,000</span></div>
-        </div>
-
-        <div class="slider-block">
-          <div class="slider-label">
-            <div class="lbl"><span class="lang-en">Weekly budget</span><span class="lang-es">Pago semanal</span></div>
-            <div class="val" id="weekVal">$89</div>
+          <div class="loan-field">
+            <label class="loan-lbl"><span class="lang-en">Annual Interest Rate</span><span class="lang-es">Tasa Anual de Interés</span></label>
+            <div class="loan-input-wrap"><span class="loan-prefix">%</span><input class="loan-input" type="number" id="loanRate" value="4.95" min="0" max="35" step="0.01"></div>
           </div>
-          <input type="range" class="slider" id="weekSlider" min="75" max="200" step="5" value="89">
-          <div class="slider-scale"><span>$75</span><span>$200</span></div>
+          <div class="loan-field">
+            <label class="loan-lbl"><span class="lang-en">Down Payment ($)</span><span class="lang-es">Pago Inicial ($)</span></label>
+            <div class="loan-input-wrap"><span class="loan-prefix">$</span><input class="loan-input" type="number" id="loanDown" value="0" min="0" step="100"></div>
+          </div>
+          <div class="loan-field">
+            <label class="loan-lbl"><span class="lang-en">Term of Loan (Years)</span><span class="lang-es">Plazo del Préstamo (Años)</span></label>
+            <div class="loan-input-wrap"><span class="loan-prefix">yr</span><input class="loan-input" type="number" id="loanYears" value="3" min="1" max="8" step="1"></div>
+          </div>
         </div>
 
-        <a href="#form" class="btn btn-primary" style="width:100%;justify-content:center;">
-          <span class="lang-en">Lock this payment</span>
-          <span class="lang-es">Asegura este pago</span>
+        <div class="loan-output">
+          <div class="loan-output-lbl"><span class="lang-en">Estimated Monthly Payment</span><span class="lang-es">Pago Mensual Estimado</span></div>
+          <div class="loan-output-amt" id="loanPayment">$299.48</div>
+          <div class="loan-output-sub"><span class="lang-en">Sample rate. Your real terms depend on credit and approval.</span><span class="lang-es">Tasa de ejemplo. Tus términos reales dependen de tu crédito y la aprobación.</span></div>
+        </div>
+
+        <a href="#form" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:24px;">
+          <span class="lang-en">Apply for financing</span>
+          <span class="lang-es">Aplica para financiar</span>
           <span>→</span>
         </a>
       </div>
@@ -1719,17 +1794,17 @@ input[type="range"].slider::-moz-range-thumb {
       <figure class="testimonial reveal">
         <div class="quote-mark">"</div>
         <blockquote>I had a 480 credit score and three banks said no. They put me in a 2019 Honda in under two hours. Twelve months later I'm making my last payment and my score's at 660.</blockquote>
-        <cite><span class="avatar">M</span> Marcus · Lake Worth</cite>
+        <cite><span class="avatar">M</span> Marcus · Kissimmee</cite>
       </figure>
       <figure class="testimonial reveal">
         <div class="quote-mark">"</div>
-        <blockquote>Vine con ITIN, sin SSN, sin co-firmante. Salí manejando un Toyota el mismo día. Hablan español como en casa — pregunté por Carolina y me trató como familia.</blockquote>
-        <cite><span class="avatar">Y</span> Yuleidy · West Palm Beach</cite>
+        <blockquote>Vine sin historia crediticia y con miedo de que me dijeran que no otra vez. Me aprobaron con Capital One el mismo día. Toda la oficina habla español — pregunté por Carolina y me trató como familia.</blockquote>
+        <cite><span class="avatar">Y</span> Yuleidy · Orlando</cite>
       </figure>
       <figure class="testimonial reveal">
         <div class="quote-mark">"</div>
         <blockquote>Recovered from Chapter 7 last year. Two dealerships laughed me out. Keys Motors looked at my paystub, not my score. F-150 in the driveway and on time every single Friday.</blockquote>
-        <cite><span class="avatar">D</span> Devon · Riviera Beach</cite>
+        <cite><span class="avatar">D</span> Devon · Sanford</cite>
       </figure>
     </div>
   </div>
@@ -1786,11 +1861,11 @@ input[type="range"].slider::-moz-range-thumb {
         <div class="loc-info">
           <div class="loc-block">
             <div class="lbl"><span class="lang-en">Address</span><span class="lang-es">Dirección</span></div>
-            <div class="val">2480 N Military Trl<br>West Palm Beach, FL 33409</div>
+            <div class="val">7126 E Colonial Drive<br>Orlando, FL 32807</div>
           </div>
           <div class="loc-block">
             <div class="lbl"><span class="lang-en">Phone</span><span class="lang-es">Teléfono</span></div>
-            <div class="val"><a href="tel:+15616531765">(561) 653-1765</a></div>
+            <div class="val"><a href="tel:+14077775397">(407) 777-5397</a></div>
           </div>
           <div class="loc-block">
             <div class="lbl"><span class="lang-en">Hours</span><span class="lang-es">Horario</span></div>
@@ -1803,7 +1878,7 @@ input[type="range"].slider::-moz-range-thumb {
       </div>
       <div class="map-frame reveal">
         <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548!2d-80.117!3d26.713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjQ4MCBOIE1pbGl0YXJ5IFRyYWlsLCBXZXN0IFBhbG0gQmVhY2gsIEZMIDMzNDA5!5e0!3m2!1sen!2sus!4v0"></iframe>
+          src="https://maps.google.com/maps?q=7126%20E%20Colonial%20Drive%2C%20Orlando%2C%20FL%2032807&t=&z=15&ie=UTF8&iwloc=B&output=embed"></iframe>
       </div>
     </div>
   </div>
@@ -1825,8 +1900,8 @@ input[type="range"].slider::-moz-range-thumb {
           <span class="chevron">+</span>
         </button>
         <div class="faq-a"><div class="faq-a-inner">
-          <span class="lang-en">No. We accept ITIN. Bring a valid photo ID, a recent paystub (or three months of bank statements if you're 1099/cash), and proof of address. That's it.</span>
-          <span class="lang-es">No. Aceptamos ITIN. Trae una identificación válida con foto, un cheque de pago reciente (o tres meses de estados bancarios si eres 1099/efectivo) y prueba de domicilio. Eso es todo.</span>
+          <span class="lang-en">Bring a valid photo ID, a recent paystub (or three months of bank statements if you're 1099 or paid in cash), and proof of address. Our finance team will walk you through any extra documentation Capital One needs.</span>
+          <span class="lang-es">Trae una identificación válida con foto, un cheque de pago reciente (o tres meses de estados bancarios si eres 1099 o pagado en efectivo) y prueba de domicilio. Nuestro equipo te explica cualquier documento adicional que Capital One pida.</span>
         </div></div>
       </div>
       <div class="faq-item">
@@ -1893,8 +1968,8 @@ input[type="range"].slider::-moz-range-thumb {
           <span class="brand-name">Keys<em>Motors</em></span>
         </div>
         <p class="foot-tagline">
-          <span class="lang-en">The bank that treats you like family.</span>
-          <span class="lang-es">El banco que te trata como familia.</span>
+          <span class="lang-en">Quality used cars in Orlando — friendly Capital One financing.</span>
+          <span class="lang-es">Carros usados de calidad en Orlando — financiamiento amable con Capital One.</span>
         </p>
       </div>
       <div class="foot-col">
@@ -1909,8 +1984,8 @@ input[type="range"].slider::-moz-range-thumb {
       <div class="foot-col">
         <h4><span class="lang-en">Contact</span><span class="lang-es">Contacto</span></h4>
         <ul>
-          <li><a href="tel:+15616531765">(561) 653-1765</a></li>
-          <li>2480 N Military Trl<br>West Palm Beach, FL 33409</li>
+          <li><a href="tel:+14077775397">(407) 777-5397</a></li>
+          <li>7126 E Colonial Drive<br>Orlando, FL 32807</li>
           <li><span class="lang-en">Mon–Sat 9–7 · Sun 11–5</span><span class="lang-es">Lun–Sáb 9–7 · Dom 11–5</span></li>
         </ul>
       </div>
@@ -2123,51 +2198,37 @@ input[type="range"].slider::-moz-range-thumb {
   });
 
   // ──────────────────────────────────────────────
-  // Payment estimator
+  // Loan calculator — proper amortization formula
+  // Mirrors Keys Motors Orlando website calculator
   // ──────────────────────────────────────────────
-  const downSlider = document.getElementById('downSlider');
-  const weekSlider = document.getElementById('weekSlider');
-  const downVal = document.getElementById('downVal');
-  const weekVal = document.getElementById('weekVal');
-  const payoutLine = document.getElementById('payoutLine');
-  const vehicleTypeEl = document.getElementById('vehicleType');
-  const vehicleTypeEsEl = document.getElementById('vehicleTypeEs');
+  const loanAmt = document.getElementById('loanAmount');
+  const loanRate = document.getElementById('loanRate');
+  const loanDown = document.getElementById('loanDown');
+  const loanYears = document.getElementById('loanYears');
+  const loanPayment = document.getElementById('loanPayment');
 
-  const vehicleMapEn = [
-    { maxDown: 1700, label: 'Sedan' },
-    { maxDown: 2200, label: 'compact SUV' },
-    { maxDown: 3000, label: 'mid-size SUV' },
-    { maxDown: 5000, label: 'Truck' }
-  ];
-  const vehicleMapEs = [
-    { maxDown: 1700, label: 'Sedán' },
-    { maxDown: 2200, label: 'SUV compacta' },
-    { maxDown: 3000, label: 'SUV mediana' },
-    { maxDown: 5000, label: 'Camioneta' }
-  ];
-
-  function updateSliderFill(slider) {
-    const pct = ((slider.value - slider.min) / (slider.max - slider.min)) * 100;
-    slider.style.setProperty('--fill', pct + '%');
+  function fmtCurrency(n) {
+    if (!isFinite(n) || n < 0) return '$0.00';
+    return '$' + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   }
-  function recalc() {
-    const down = Number(downSlider.value);
-    const week = Number(weekSlider.value);
-    downVal.textContent = '$' + down.toLocaleString();
-    weekVal.textContent = '$' + week;
-    payoutLine.textContent = `$${week}/wk · $${down.toLocaleString()} down`;
-    const picken = vehicleMapEn.find(c => down <= c.maxDown) || vehicleMapEn[vehicleMapEn.length - 1];
-    const picked = vehicleMapEs.find(c => down <= c.maxDown) || vehicleMapEs[vehicleMapEs.length - 1];
-    vehicleTypeEl.textContent = picken.label;
-    vehicleTypeEsEl.textContent = picked.label;
-    const esAmt = document.querySelector('.lang-es .amt');
-    if (esAmt) esAmt.textContent = `$${week}/sem · $${down.toLocaleString()} inicial`;
-    updateSliderFill(downSlider);
-    updateSliderFill(weekSlider);
+  function calcLoan() {
+    const amount = parseFloat(loanAmt.value) || 0;
+    const rate = parseFloat(loanRate.value) || 0;
+    const down = parseFloat(loanDown.value) || 0;
+    const years = parseFloat(loanYears.value) || 1;
+    const principal = Math.max(amount - down, 0);
+    const months = Math.max(years * 12, 1);
+    const monthlyRate = (rate / 100) / 12;
+    let payment;
+    if (monthlyRate === 0) {
+      payment = principal / months;
+    } else {
+      payment = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+    }
+    loanPayment.textContent = fmtCurrency(payment);
   }
-  downSlider.addEventListener('input', recalc);
-  weekSlider.addEventListener('input', recalc);
-  recalc();
+  [loanAmt, loanRate, loanDown, loanYears].forEach(el => el && el.addEventListener('input', calcLoan));
+  calcLoan();
 
   // ──────────────────────────────────────────────
   // FORM SUBMISSION → GHL Contacts API
@@ -2249,8 +2310,8 @@ input[type="range"].slider::-moz-range-thumb {
         submit.innerHTML = original;
         const isEs = html.getAttribute('data-lang') === 'es';
         alert(isEs
-          ? 'No pudimos enviar tu solicitud. Por favor llámanos: (561) 653-1765'
-          : 'We could not submit your request. Please call us: (561) 653-1765');
+          ? 'No pudimos enviar tu solicitud. Por favor llámanos: (407) 777-5397'
+          : 'We could not submit your request. Please call us: (407) 777-5397');
       }
     } catch (err) {
       console.error('Network error:', err);
@@ -2258,8 +2319,8 @@ input[type="range"].slider::-moz-range-thumb {
       submit.innerHTML = original;
       const isEs = html.getAttribute('data-lang') === 'es';
       alert(isEs
-        ? 'Error de red. Por favor llámanos: (561) 653-1765'
-        : 'Network error. Please call us: (561) 653-1765');
+        ? 'Error de red. Por favor llámanos: (407) 777-5397'
+        : 'Network error. Please call us: (407) 777-5397');
     }
   });
 
